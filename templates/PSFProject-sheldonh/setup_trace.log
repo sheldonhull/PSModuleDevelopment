@@ -1,0 +1,965 @@
+﻿5/31/2018 5:25:37 PM --- 
+5/31/2018 5:25:37 PM --- Trace started: 5/31/2018 5:25:37 PM
+5/31/2018 5:25:37 PM --- 
+5/31/2018 5:25:37 PM ==[Connect to C:\Users\16061\AppData\Local\Temp\devexpress\DevExpressComponents-15.2.9.exe]===============================================
+5/31/2018 5:25:37 PM ... Calc DataFilePath:C:\Users\16061\AppData\Local\Temp\devexpress\DevExpressComponents-15.2.9.exe
+5/31/2018 5:25:37 PM ::: Connect to C:\Users\16061\AppData\Local\Temp\devexpress\DevExpressComponents-15.2.9.exe data: Yes
+5/31/2018 5:25:37 PM ==[Init active]===============================================
+5/31/2018 5:25:37 PM ---[>>Load configuration]---
+5/31/2018 5:25:37 PM ---[>>ProductInfo.LoadFromXML]---
+5/31/2018 5:25:37 PM >>>>>>>>>>>>> ProductInfo state:
+5/31/2018 5:25:37 PM ::: PublicName=Components FullVersion=15.2.9 DisplayVersion=v15.2
+5/31/2018 5:25:37 PM ::: Suite=Yes VSVersions=VS100;VS110;VS120;VS140; SuppressAsmReg=No
+5/31/2018 5:25:37 PM <<<<<<<<<<<<< 
+5/31/2018 5:25:37 PM ---[<<ProductInfo.LoadFromXML]---
+5/31/2018 5:25:37 PM ::: FileCount=120351
+5/31/2018 5:25:37 PM ---[>>Libraries.LoadFromXML]---
+5/31/2018 5:25:37 PM ---[<<Libraries.LoadFromXML  240 loaded]---
+5/31/2018 5:25:37 PM ---[<<Load configuration]---
+5/31/2018 5:25:37 PM ---[<<Load configuration]---
+5/31/2018 5:25:37 PM ---[>>initialization]---
+5/31/2018 5:25:37 PM >>>>>>>>>>>>> Framework versions:
+5/31/2018 5:25:37 PM ::: C:\Windows\Microsoft.NET\Framework\v4.0.30319\ - Yes
+5/31/2018 5:25:37 PM <<<<<<<<<<<<< 
+5/31/2018 5:25:37 PM >>>>>>>>>>>>> Attributes:
+5/31/2018 5:25:37 PM ::: DisplayTitle=DevExpress Components 15.2
+5/31/2018 5:25:37 PM ::: PublishedName=Components 
+5/31/2018 5:25:37 PM ::: DefaultFolderName=Components
+5/31/2018 5:25:37 PM <<<<<<<<<<<<< 
+5/31/2018 5:25:37 PM ::: CONNECT_INFO:
+5/31/2018 5:25:37 PM ::: Bundle Components connected to: C:\Users\16061\AppData\Local\Temp\devexpress\DevExpressComponents-15.2.9.exe
+5/31/2018 5:25:37 PM ---[<<initialization]---
+5/31/2018 5:25:37 PM ---[>>LoadFromRegistry]---
+5/31/2018 5:25:37 PM ---[<<LoadFromRegistry]---
+5/31/2018 5:25:37 PM ==[Init complete]===============================================
+5/31/2018 5:25:37 PM ::: !!! QUIET MODE: -R=No -U=No Demos:False,SourceCode:False,"Windows Forms"
+5/31/2018 5:25:39 PM ==[Install]===============================================
+5/31/2018 5:25:39 PM >>>>>>>>>>>>> UpdateProperties
+5/31/2018 5:25:39 PM <<<<<<<<<<<<< UpdateProperties
+5/31/2018 5:25:39 PM >>>>>>>>>>>>> UpdateInstallers
+5/31/2018 5:25:39 PM <<<<<<<<<<<<< UpdateInstallers
+5/31/2018 5:25:39 PM >>>>>>>>>>>>> UpdateInstallers
+5/31/2018 5:25:39 PM <<<<<<<<<<<<< UpdateInstallers
+5/31/2018 5:25:39 PM ==[Install complete]===============================================
+5/31/2018 5:25:39 PM ::: OS Version=10.0.16299.15
+5/31/2018 5:25:39 PM ::: WOW64=Yes
+5/31/2018 5:25:39 PM >>>>>>>>>>>>> VersionInfo state:
+5/31/2018 5:25:39 PM ::: Evaluation=No Email=shull@argussoftware.com 
+5/31/2018 5:25:39 PM <<<<<<<<<<<<< 
+5/31/2018 5:25:39 PM >>>>>>>>>>>>> Paths state:
+5/31/2018 5:25:39 PM ::: installutil=C:\Windows\Microsoft.NET\Framework\v4.0.30319\InstallUtil.exe
+5/31/2018 5:25:39 PM <<<<<<<<<<<<< 
+5/31/2018 5:25:39 PM >>>>>>>>>>>>> BundlePaths state:
+5/31/2018 5:25:39 PM ::: InstallDir=C:\Program Files (x86)\DevExpress 15.2\Components\
+5/31/2018 5:25:39 PM ::: programsmenu=C:\ProgramData\Microsoft\Windows\Start Menu\Programs\DevExpress 15.2\
+5/31/2018 5:25:39 PM ::: DemosDir=C:\Users\Public\Documents\DevExpress Demos 15.2\Components\
+5/31/2018 5:25:39 PM <<<<<<<<<<<<< 
+5/31/2018 5:25:39 PM >>>>>>>>>>>>> Init state Installed | Selected options:
+5/31/2018 5:25:39 PM ::: Bundle:Components
+5/31/2018 5:25:39 PM ::: ASP.NET....................... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: ASP.NET Demos................. CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: ASPxCharts.................... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: ASPxDemosUpdater.v15.2.2005... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: ASPxGauges.................... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: ASPxGaugesRuntime............. CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: ASPxHtmlEditor................ CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: ASPxHtmlEditorRuntime......... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: ASPxPivotGrid................. CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: ASPxPivotGridRuntime.......... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: ASPxRichEdit.................. CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: ASPxRichEditRuntime........... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: ASPxScheduler................. CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: ASPxSchedulerRuntime.......... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: ASPxSpellChecker.............. CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: ASPxSpellCheckerRuntime....... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: ASPxSpreadsheet............... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: ASPxTempAspFilesClearer.v15.2.2005 CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: ASPxThemes.................... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: ASPxTreeList.................. CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: ASPxTreeListRuntime........... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: ASPxperience.................. CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: ASPxperienceRuntime........... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: CodeParser.................... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: Components.................... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: Components Tools.............. CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DXCarousel.................... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DXCarouselRuntime............. CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DXCharts...................... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DXChartsRuntime............... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DXControls.................... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DXControlsRuntime............. CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DXCoreRuntime................. CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DXDiagram..................... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DXDiagramRuntime.............. CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DXDocking..................... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DXDockingRuntime.............. CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DXDocumentViewerCoreRuntime... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DXGauges...................... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DXGaugesRuntime............... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DXGrid........................ CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DXGridRuntime................. CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DXLayoutControl............... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DXLayoutControlRuntime........ CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DXMap......................... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DXMapRuntime.................. CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DXNavBar...................... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DXNavBarRuntime............... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DXPdfViewer................... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DXPdfViewerRuntime............ CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DXPivotGrid................... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DXPivotGridRuntime............ CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DXPrinting.................... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DXPrintingRuntime............. CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DXPropertyGrid................ CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DXPropertyGridRuntime......... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DXReportDesigner.............. CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DXReportDesignerRuntime....... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DXRibbon...................... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DXRibbonRuntime............... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DXRichEdit.................... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DXRichEditRuntime............. CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DXScheduler................... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DXSchedulerRuntime............ CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DXSpellChecker................ CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DXSpreadsheet................. CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DXSpreadsheetRuntime.......... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DXTreeMap..................... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DXTreeMapRuntime.............. CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DXUtils....................... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: Dashboard..................... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: Dashboard Demos............... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DashboardCore................. CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DashboardWebRuntime........... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DashboardWinRuntime........... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: Data.......................... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DataAccess.................... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DataAccessCore................ CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DataAccessRuntime............. CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DemoBaseDX.................... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DemoBaseDXRuntime............. CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DemoBaseTutorials............. CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DemoData...................... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: Demos......................... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: Design........................ CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DevAV......................... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DevExpress.DeploymentTool..... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DevExpressMenu................ CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DevExpressProjectType......... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DiagramCoreRuntime............ CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: Docs Demos.................... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: DocsRuntime................... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: Docs.......................... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: Localization.v15.2.2005....... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: MVC........................... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: MVCRuntime.................... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: MapCore....................... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: Mvvm.......................... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: MvvmTests..................... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: OfficeCore.................... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: PdfCore....................... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: PdfDrawing.................... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: PrintingCore.................. CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: ProjectsCommon................ CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XtraReports................... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: SharePoint.................... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: Snap.......................... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: SnapCore...................... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: SnapRuntime................... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: SparklineCore................. CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: SpellCheckerCore.............. CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: SpellCheckerCoreSources....... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: SpreadsheetRuntime............ CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: ThemeEditorCore............... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: UIXamlRuntime................. CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: UWP........................... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: UWP Demos..................... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: UWP Design.................... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: UWPControlsDesign............. CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: UWPControlsRuntime............ CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: UWPCoreDesign................. CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: UWPCoreRuntime................ CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: UWPDXSDK...................... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: UWPDrawingRuntime............. CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: UWPEditorsDesign.............. CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: UWPEditorsRuntime............. CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: UWPFeatureDemo................ CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: UWPGaugesDesign............... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: UWPGaugesRuntime.............. CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: UWPGridDesign................. CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: UWPGridRuntime................ CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: UWPHybridApp.................. CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: UWPLayoutDesign............... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: UWPLayoutRuntime.............. CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: UWPMapDesign.................. CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: UWPMapRuntime................. CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: UWPMvvmRuntime................ CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: UWPPdfRuntime................. CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: UWPPreprocess2Runtime......... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: UWPRibbonRuntime.............. CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: UWPRuntime.................... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: UWPTestListener............... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: UWPTestListenerMobile......... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: UWPTestRunner................. CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: UWPTestUtils.................. CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: Utils......................... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: UtilsUI....................... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: WPF Components................ CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: WPF Demos..................... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: WPF DevAV Demos............... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: Web ScriptIntellisense........ CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: Web.Projects.................. CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: WebDesign..................... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: Win.Projects.................. CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: Windows Forms................. CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: WinRTChartsDesign............. CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: WinRTChartsRuntime............ CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: WinRTRibbonDesign............. CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: WinRTUIXamlDesign............. CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: Windows Forms Demos........... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: WpfRuntime.................... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: WpfThemes..................... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XPFThemes..................... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XPO........................... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XPODesign..................... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XPORuntime.................... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XamlProcessing................ CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XtraBars...................... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XtraBarsDesign................ CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XtraBarsRuntime............... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XtraCharts.Win................ CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XtraChartsCore................ CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XtraChartsCoreSources......... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XtraChartsExtensions.......... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XtraChartsRuntimeCore......... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XtraChartsRuntimeWeb.......... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XtraChartsRuntimeWin.......... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XtraChartsSources............. CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XtraChartsWizard.............. CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XtraDiagram................... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XtraDiagramRuntime............ CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XtraEditors................... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XtraEditorsDesign............. CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XtraEditorsRuntime............ CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XtraGauges.................... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XtraGaugesCore................ CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XtraGaugesPresets............. CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XtraGaugesRuntime............. CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XtraGrid...................... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XtraGridRuntime............... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XtraLayout.................... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XtraLayoutRuntime............. CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XtraMap....................... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XtraMapRuntime................ CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XtraNavBar.................... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XtraNavBarRunTime............. CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XtraPdfViewer................. CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XtraPdfViewerRuntime.......... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XtraPivotGrid................. CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XtraPivotGridCore............. CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XtraPivotGridCoreRuntime...... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XtraPivotGridRuntime.......... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XtraPrintingDesign............ CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XtraPrintingRuntime........... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XtraPrintingSystem............ CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XtraReportsWeb................ CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XtraReportsWpf................ CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XtraReportsWin................ CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XtraReportsCommon............. CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XtraReportsCore............... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XtraReportsDemoReports........ CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XtraReportsDesign............. CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XtraReportsService............ CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:39 PM ::: XtraReportsWeb Demos.......... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:40 PM ::: XtraReportsWebRuntime......... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:40 PM ::: XtraReportsWin Demos.......... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:40 PM ::: XtraReportsWinRuntime......... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:40 PM ::: XtraReportsWpf Demos.......... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:40 PM ::: XtraRichEdit.................. CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:40 PM ::: XtraRichEditCore.............. CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:40 PM ::: XtraRichEditRuntime........... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:40 PM ::: XtraScheduler................. CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:40 PM ::: XtraSchedulerCore............. CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:40 PM ::: XtraSchedulerDesign........... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:40 PM ::: XtraSchedulerRuntime.......... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:40 PM ::: XtraSpellChecker.............. CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:40 PM ::: XtraSpellCheckerRuntime....... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:40 PM ::: XtraSpreadsheet............... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:40 PM ::: XtraSpreadsheetCore........... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:40 PM ::: XtraSpreadsheetRuntime........ CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:40 PM ::: XtraTreeList.................. CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:40 PM ::: XtraTreeListDesign............ CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:40 PM ::: XtraTreeListRuntime........... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:40 PM ::: XtraVerticalGrid.............. CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:40 PM ::: XtraVerticalGridRuntime....... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:40 PM ::: XtraWizard.................... CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:40 PM ::: XtraWizardRuntime............. CoreFiles:[No|Yes]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:40 PM ::: eXpressAppFramework........... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:40 PM ::: eXpressAppFramework Demos..... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:40 PM ::: eXpressAppFrameworkRuntime.... CoreFiles:[No|No]  Sources:[No|No] Demos:[No|No]
+5/31/2018 5:25:40 PM <<<<<<<<<<<<< 
+5/31/2018 5:25:40 PM ::: !!! OPERATION=0 Sources=Yes
+5/31/2018 5:25:40 PM ==[Install]===============================================
+5/31/2018 5:25:40 PM >>>>>>>>>>>>> UpdateProperties
+5/31/2018 5:25:40 PM <<<<<<<<<<<<< UpdateProperties
+5/31/2018 5:25:40 PM >>>>>>>>>>>>> UpdateToolbox
+5/31/2018 5:25:40 PM <<<<<<<<<<<<< UpdateToolbox
+5/31/2018 5:25:40 PM >>>>>>>>>>>>> UpdateInstallers
+5/31/2018 5:25:40 PM <<<<<<<<<<<<< UpdateInstallers
+5/31/2018 5:25:40 PM >>>>>>>>>>>>> UpdateFiles
+5/31/2018 5:25:40 PM ==[RECONNECT Components to C:\Program Files (x86)\DevExpress 15.2\Components\DevExpressComponents-15.2.9.exe]===============================================
+5/31/2018 5:25:40 PM ... Calc DataFilePath:C:\Program Files (x86)\DevExpress 15.2\Components\DevExpressComponents-15.2.9.exe
+5/31/2018 5:25:40 PM ::: Connect to C:\Program Files (x86)\DevExpress 15.2\Components\DevExpressComponents-15.2.9.exe data: Yes
+5/31/2018 5:26:41 PM ::: !!! Processed file count - 797
+5/31/2018 5:26:41 PM <<<<<<<<<<<<< UpdateFiles
+5/31/2018 5:52:20 PM >>>>>>>>>>>>> UpdateToolbox
+5/31/2018 5:52:20 PM <<<<<<<<<<<<< UpdateToolbox
+5/31/2018 5:52:20 PM >>>>>>>>>>>>> UpdateInstallers
+5/31/2018 5:52:20 PM ::: ExecuteApp: C:\Windows\Microsoft.NET\Framework\v4.0.30319\InstallUtil.exe /LogToConsole=true /LogFile= /ShowCallStack /InstallDir="C:\Program Files (x86)\DevExpress 15.2\Components" /DemosDir="C:\Users\Public\Documents\DevExpress Demos 15.2\Components" /Version="15.2.9" /Component="Components" /DemosName="Components" "C:\Program Files (x86)\DevExpress 15.2\Components\System\Components\DevExpress.DemosUpdater.dll" 
+5/31/2018 5:52:20 PM ... process created
+5/31/2018 5:52:20 PM ... read process output
+5/31/2018 5:52:21 PM ::: Microsoft (R) .NET Framework Installation utility Version 4.7.2556.0
+5/31/2018 5:52:21 PM ::: Copyright (C) Microsoft Corporation.  All rights reserved.
+5/31/2018 5:52:21 PM ::: 
+5/31/2018 5:52:21 PM ::: 
+5/31/2018 5:52:21 PM ::: Running a transacted installation.
+5/31/2018 5:52:21 PM ::: 
+5/31/2018 5:52:21 PM ::: Beginning the Install phase of the installation.
+5/31/2018 5:52:21 PM ::: See the contents of the log file for the C:\Program Files (x86)\DevExpress 15.2\Components\System\Components\DevExpress.DemosUpdater.dll assembly's progress.
+5/31/2018 5:52:21 PM ::: The file is located at .
+5/31/2018 5:52:21 PM ::: Installing assembly 'C:\Program Files (x86)\DevExpress 15.2\Components\System\Components\DevExpress.DemosUpdater.dll'.
+5/31/2018 5:52:21 PM ::: Affected parameters are:
+5/31/2018 5:52:21 PM :::    showcallstack = 
+5/31/2018 5:52:21 PM :::    logfile = 
+5/31/2018 5:52:21 PM :::    version = 15.2.9
+5/31/2018 5:52:21 PM :::    component = Components
+5/31/2018 5:52:21 PM :::    assemblypath = C:\Program Files (x86)\DevExpress 15.2\Components\System\Components\DevExpress.DemosUpdater.dll
+5/31/2018 5:52:21 PM :::    logtoconsole = true
+5/31/2018 5:52:21 PM :::    demosdir = C:\Users\Public\Documents\DevExpress Demos 15.2\Components
+5/31/2018 5:52:21 PM :::    installdir = C:\Program Files (x86)\DevExpress 15.2\Components
+5/31/2018 5:52:21 PM :::    demosname = Components
+5/31/2018 5:52:21 PM ::: 
+5/31/2018 5:52:21 PM ::: The Install phase completed successfully, and the Commit phase is beginning.
+5/31/2018 5:52:21 PM ::: See the contents of the log file for the C:\Program Files (x86)\DevExpress 15.2\Components\System\Components\DevExpress.DemosUpdater.dll assembly's progress.
+5/31/2018 5:52:21 PM ::: The file is located at .
+5/31/2018 5:52:21 PM ::: Committing assembly 'C:\Program Files (x86)\DevExpress 15.2\Components\System\Components\DevExpress.DemosUpdater.dll'.
+5/31/2018 5:52:21 PM ::: Affected parameters are:
+5/31/2018 5:52:21 PM :::    showcallstack = 
+5/31/2018 5:52:21 PM :::    logfile = 
+5/31/2018 5:52:21 PM :::    version = 15.2.9
+5/31/2018 5:52:21 PM :::    component = Components
+5/31/2018 5:52:21 PM :::    assemblypath = C:\Program Files (x86)\DevExpress 15.2\Components\System\Components\DevExpress.DemosUpdater.dll
+5/31/2018 5:52:21 PM :::    logtoconsole = true
+5/31/2018 5:52:21 PM :::    demosdir = C:\Users\Public\Documents\DevExpress Demos 15.2\Components
+5/31/2018 5:52:21 PM :::    installdir = C:\Program Files (x86)\DevExpress 15.2\Components
+5/31/2018 5:52:21 PM :::    demosname = Components
+5/31/2018 5:52:21 PM ::: 
+5/31/2018 5:52:21 PM ::: The Commit phase completed successfully.
+5/31/2018 5:52:21 PM ::: 
+5/31/2018 5:52:21 PM ::: The transacted install has completed.
+5/31/2018 5:52:21 PM ::: 
+5/31/2018 5:52:21 PM ... waiting termination
+5/31/2018 5:52:21 PM ... process terminated
+5/31/2018 5:52:21 PM ::: ExecuteApp: C:\Windows\Microsoft.NET\Framework\v4.0.30319\InstallUtil.exe /LogToConsole=true /LogFile= /ShowCallStack /InstallDir="C:\Program Files (x86)\DevExpress 15.2\Components" /DemosDir="C:\Users\Public\Documents\DevExpress Demos 15.2\Components" /Version="15.2.9" /Component="Components" /DemosName="Components" "C:\Program Files (x86)\DevExpress 15.2\Components\System\Components\DevExpress.ProjectUpgrade.Installer.dll" 
+5/31/2018 5:52:21 PM ... process created
+5/31/2018 5:52:21 PM ... read process output
+5/31/2018 5:52:21 PM ::: Microsoft (R) .NET Framework Installation utility Version 4.7.2556.0
+5/31/2018 5:52:21 PM ::: Copyright (C) Microsoft Corporation.  All rights reserved.
+5/31/2018 5:52:21 PM ::: 
+5/31/2018 5:52:21 PM ::: 
+5/31/2018 5:52:21 PM ::: Running a transacted installation.
+5/31/2018 5:52:21 PM ::: 
+5/31/2018 5:52:21 PM ::: Beginning the Install phase of the installation.
+5/31/2018 5:52:21 PM ::: See the contents of the log file for the C:\Program Files (x86)\DevExpress 15.2\Components\System\Components\DevExpress.ProjectUpgrade.Installer.dll assembly's progress.
+5/31/2018 5:52:21 PM ::: The file is located at .
+5/31/2018 5:52:21 PM ::: Installing assembly 'C:\Program Files (x86)\DevExpress 15.2\Components\System\Components\DevExpress.ProjectUpgrade.Installer.dll'.
+5/31/2018 5:52:21 PM ::: Affected parameters are:
+5/31/2018 5:52:21 PM :::    showcallstack = 
+5/31/2018 5:52:21 PM :::    logfile = 
+5/31/2018 5:52:21 PM :::    version = 15.2.9
+5/31/2018 5:52:21 PM :::    component = Components
+5/31/2018 5:52:21 PM :::    assemblypath = C:\Program Files (x86)\DevExpress 15.2\Components\System\Components\DevExpress.ProjectUpgrade.Installer.dll
+5/31/2018 5:52:21 PM :::    logtoconsole = true
+5/31/2018 5:52:21 PM :::    demosdir = C:\Users\Public\Documents\DevExpress Demos 15.2\Components
+5/31/2018 5:52:21 PM :::    installdir = C:\Program Files (x86)\DevExpress 15.2\Components
+5/31/2018 5:52:21 PM :::    demosname = Components
+5/31/2018 5:52:21 PM ::: 2018.05.31 17.52.21	VS9ExtensionMgrInstaller	>	Install
+5/31/2018 5:52:21 PM ::: 2018.05.31 17.52.21	VS9ExtensionMgrInstaller	>	InternalInstall
+5/31/2018 5:52:21 PM ::: 2018.05.31 17.52.21	VS9ExtensionMgrInstaller	<	InternalInstall
+5/31/2018 5:52:21 PM ::: 2018.05.31 17.52.21	VS9ExtensionMgrInstaller	<	Install
+5/31/2018 5:52:21 PM ::: 2018.05.31 17.52.21	VS10ExtensionMgrInstaller	>	Install
+5/31/2018 5:52:21 PM ::: 2018.05.31 17.52.21	VS10ExtensionMgrInstaller	>	InternalInstall
+5/31/2018 5:52:21 PM ::: 2018.05.31 17.52.21	VS10ExtensionMgrInstaller	<	InternalInstall
+5/31/2018 5:52:21 PM ::: 2018.05.31 17.52.21	VS10ExtensionMgrInstaller	<	Install
+5/31/2018 5:52:21 PM ::: 2018.05.31 17.52.21	VS11ExtensionMgrInstaller	>	Install
+5/31/2018 5:52:21 PM ::: 2018.05.31 17.52.21	VS11ExtensionMgrInstaller	>	InternalInstall
+5/31/2018 5:52:21 PM ::: 2018.05.31 17.52.21	VS11ExtensionMgrInstaller	<	InternalInstall
+5/31/2018 5:52:21 PM ::: 2018.05.31 17.52.21	VS11ExtensionMgrInstaller	<	Install
+5/31/2018 5:52:21 PM ::: 2018.05.31 17.52.21	VS12ExtensionMgrInstaller	>	Install
+5/31/2018 5:52:21 PM ::: 2018.05.31 17.52.21	VS12ExtensionMgrInstaller	>	InternalInstall
+5/31/2018 5:52:21 PM ::: 2018.05.31 17.52.21	VS12ExtensionMgrInstaller	<	InternalInstall
+5/31/2018 5:52:21 PM ::: 2018.05.31 17.52.21	VS12ExtensionMgrInstaller	<	Install
+5/31/2018 5:52:21 PM ::: 2018.05.31 17.52.21	VS14ExtensionMgrInstaller	>	Install
+5/31/2018 5:52:21 PM ::: 2018.05.31 17.52.21	VS14ExtensionMgrInstaller	>	InternalInstall
+5/31/2018 5:52:21 PM ::: 2018.05.31 17.52.21	VS14ExtensionMgrInstaller	<	InternalInstall
+5/31/2018 5:52:21 PM ::: 2018.05.31 17.52.21	VS14ExtensionMgrInstaller	<	Install
+5/31/2018 5:52:21 PM ::: 
+5/31/2018 5:52:21 PM ::: The Install phase completed successfully, and the Commit phase is beginning.
+5/31/2018 5:52:21 PM ::: See the contents of the log file for the C:\Program Files (x86)\DevExpress 15.2\Components\System\Components\DevExpress.ProjectUpgrade.Installer.dll assembly's progress.
+5/31/2018 5:52:21 PM ::: The file is located at .
+5/31/2018 5:52:21 PM ::: Committing assembly 'C:\Program Files (x86)\DevExpress 15.2\Components\System\Components\DevExpress.ProjectUpgrade.Installer.dll'.
+5/31/2018 5:52:21 PM ::: Affected parameters are:
+5/31/2018 5:52:21 PM :::    showcallstack = 
+5/31/2018 5:52:21 PM :::    logfile = 
+5/31/2018 5:52:21 PM :::    version = 15.2.9
+5/31/2018 5:52:21 PM :::    component = Components
+5/31/2018 5:52:21 PM :::    assemblypath = C:\Program Files (x86)\DevExpress 15.2\Components\System\Components\DevExpress.ProjectUpgrade.Installer.dll
+5/31/2018 5:52:21 PM :::    logtoconsole = true
+5/31/2018 5:52:21 PM :::    demosdir = C:\Users\Public\Documents\DevExpress Demos 15.2\Components
+5/31/2018 5:52:21 PM :::    installdir = C:\Program Files (x86)\DevExpress 15.2\Components
+5/31/2018 5:52:21 PM :::    demosname = Components
+5/31/2018 5:52:21 PM ::: 
+5/31/2018 5:52:21 PM ::: The Commit phase completed successfully.
+5/31/2018 5:52:21 PM ::: 
+5/31/2018 5:52:21 PM ::: The transacted install has completed.
+5/31/2018 5:52:21 PM ::: 
+5/31/2018 5:52:21 PM ... waiting termination
+5/31/2018 5:52:21 PM ... process terminated
+5/31/2018 5:52:21 PM ::: ExecuteApp: C:\Windows\Microsoft.NET\Framework\v4.0.30319\InstallUtil.exe /LogToConsole=true /LogFile= /ShowCallStack /InstallDir="C:\Program Files (x86)\DevExpress 15.2\Components" /DemosDir="C:\Users\Public\Documents\DevExpress Demos 15.2\Components" /Version="15.2.9" /Component="Components" /DemosName="Components" "C:\Program Files (x86)\DevExpress 15.2\Components\System\Components\DevExpress.VSMenuIntegration.PackageInstaller.dll" 
+5/31/2018 5:52:21 PM ... process created
+5/31/2018 5:52:21 PM ... read process output
+5/31/2018 5:52:21 PM ::: Microsoft (R) .NET Framework Installation utility Version 4.7.2556.0
+5/31/2018 5:52:21 PM ::: Copyright (C) Microsoft Corporation.  All rights reserved.
+5/31/2018 5:52:21 PM ::: 
+5/31/2018 5:52:21 PM ::: 
+5/31/2018 5:52:21 PM ::: Running a transacted installation.
+5/31/2018 5:52:21 PM ::: 
+5/31/2018 5:52:21 PM ::: Beginning the Install phase of the installation.
+5/31/2018 5:52:21 PM ::: See the contents of the log file for the C:\Program Files (x86)\DevExpress 15.2\Components\System\Components\DevExpress.VSMenuIntegration.PackageInstaller.dll assembly's progress.
+5/31/2018 5:52:21 PM ::: The file is located at .
+5/31/2018 5:52:21 PM ::: Installing assembly 'C:\Program Files (x86)\DevExpress 15.2\Components\System\Components\DevExpress.VSMenuIntegration.PackageInstaller.dll'.
+5/31/2018 5:52:21 PM ::: Affected parameters are:
+5/31/2018 5:52:21 PM :::    showcallstack = 
+5/31/2018 5:52:21 PM :::    logfile = 
+5/31/2018 5:52:21 PM :::    version = 15.2.9
+5/31/2018 5:52:21 PM :::    component = Components
+5/31/2018 5:52:21 PM :::    assemblypath = C:\Program Files (x86)\DevExpress 15.2\Components\System\Components\DevExpress.VSMenuIntegration.PackageInstaller.dll
+5/31/2018 5:52:21 PM :::    logtoconsole = true
+5/31/2018 5:52:21 PM :::    demosdir = C:\Users\Public\Documents\DevExpress Demos 15.2\Components
+5/31/2018 5:52:21 PM ::: 
+5/31/2018 5:52:21 PM :::    installdir = C:\Program Files (x86)\DevExpress 15.2\Components
+5/31/2018 5:52:21 PM :::    demosname = Components
+5/31/2018 5:52:21 PM ::: 2018.05.31 17.52.21	VS10ExtensionMgrInstaller	>	Install
+5/31/2018 5:52:21 PM ::: 2018.05.31 17.52.21	VS10ExtensionMgrInstaller	>	InternalInstall
+5/31/2018 5:52:21 PM ::: 2018.05.31 17.52.21	VS10ExtensionMgrInstaller	<	InternalInstall
+5/31/2018 5:52:21 PM ::: 2018.05.31 17.52.21	VS10ExtensionMgrInstaller	<	Install
+5/31/2018 5:52:21 PM ::: 2018.05.31 17.52.21	VS11ExtensionMgrInstaller	>	Install
+5/31/2018 5:52:21 PM ::: 2018.05.31 17.52.21	VS11ExtensionMgrInstaller	>	InternalInstall
+5/31/2018 5:52:21 PM ::: 2018.05.31 17.52.21	VS11ExtensionMgrInstaller	<	InternalInstall
+5/31/2018 5:52:21 PM ::: 2018.05.31 17.52.21	VS11ExtensionMgrInstaller	<	Install
+5/31/2018 5:52:21 PM ::: 2018.05.31 17.52.21	VS12ExtensionMgrInstaller	>	Install
+5/31/2018 5:52:21 PM ::: 2018.05.31 17.52.21	VS12ExtensionMgrInstaller	>	InternalInstall
+5/31/2018 5:52:21 PM ::: 2018.05.31 17.52.21	VS12ExtensionMgrInstaller	<	InternalInstall
+5/31/2018 5:52:21 PM ::: 2018.05.31 17.52.21	VS12ExtensionMgrInstaller	<	Install
+5/31/2018 5:52:21 PM ::: 2018.05.31 17.52.21	VS14ExtensionMgrInstaller	>	Install
+5/31/2018 5:52:21 PM ::: 2018.05.31 17.52.21	VS14ExtensionMgrInstaller	>	InternalInstall
+5/31/2018 5:52:21 PM ::: 2018.05.31 17.52.21	VS14ExtensionMgrInstaller	<	InternalInstall
+5/31/2018 5:52:21 PM ::: 2018.05.31 17.52.21	VS14ExtensionMgrInstaller	<	Install
+5/31/2018 5:52:21 PM ::: 
+5/31/2018 5:52:21 PM ::: The Install phase completed successfully, and the Commit phase is beginning.
+5/31/2018 5:52:21 PM ::: See the contents of the log file for the C:\Program Files (x86)\DevExpress 15.2\Components\System\Components\DevExpress.VSMenuIntegration.PackageInstaller.dll assembly's progress.
+5/31/2018 5:52:21 PM ::: The file is located at .
+5/31/2018 5:52:21 PM ::: Committing assembly 'C:\Program Files (x86)\DevExpress 15.2\Components\System\Components\DevExpress.VSMenuIntegration.PackageInstaller.dll'.
+5/31/2018 5:52:21 PM ::: Affected parameters are:
+5/31/2018 5:52:21 PM :::    showcallstack = 
+5/31/2018 5:52:21 PM :::    logfile = 
+5/31/2018 5:52:21 PM :::    version = 15.2.9
+5/31/2018 5:52:21 PM :::    component = Components
+5/31/2018 5:52:21 PM :::    assemblypath = C:\Program Files (x86)\DevExpress 15.2\Components\System\Components\DevExpress.VSMenuIntegration.PackageInstaller.dll
+5/31/2018 5:52:21 PM :::    logtoconsole = true
+5/31/2018 5:52:21 PM :::    demosdir = C:\Users\Public\Documents\DevExpress Demos 15.2\Components
+5/31/2018 5:52:21 PM :::    installdir = C:\Program Files (x86)\DevExpress 15.2\Components
+5/31/2018 5:52:21 PM :::    demosname = Components
+5/31/2018 5:52:21 PM ::: 
+5/31/2018 5:52:21 PM ::: The Commit phase completed successfully.
+5/31/2018 5:52:21 PM ::: 
+5/31/2018 5:52:21 PM ::: The transacted install has completed.
+5/31/2018 5:52:21 PM ::: 
+5/31/2018 5:52:21 PM ... waiting termination
+5/31/2018 5:52:21 PM ... process terminated
+5/31/2018 5:52:21 PM ::: ExecuteApp: C:\Windows\Microsoft.NET\Framework\v4.0.30319\InstallUtil.exe /LogToConsole=true /LogFile= /ShowCallStack /InstallDir="C:\Program Files (x86)\DevExpress 15.2\Components" /DemosDir="C:\Users\Public\Documents\DevExpress Demos 15.2\Components" /Version="15.2.9" /Component="Components" /DemosName="Components" "C:\Program Files (x86)\DevExpress 15.2\Components\System\Components\DevExpress.Win.Projects.v15.2.Installers.dll" 
+5/31/2018 5:52:21 PM ... process created
+5/31/2018 5:52:21 PM ... read process output
+5/31/2018 5:52:21 PM ::: Microsoft (R) .NET Framework Installation utility Version 4.7.2556.0
+5/31/2018 5:52:21 PM ::: Copyright (C) Microsoft Corporation.  All rights reserved.
+5/31/2018 5:52:21 PM ::: 
+5/31/2018 5:52:22 PM ::: 
+5/31/2018 5:52:22 PM ::: Running a transacted installation.
+5/31/2018 5:52:22 PM ::: 
+5/31/2018 5:52:22 PM ::: Beginning the Install phase of the installation.
+5/31/2018 5:52:22 PM ::: See the contents of the log file for the C:\Program Files (x86)\DevExpress 15.2\Components\System\Components\DevExpress.Win.Projects.v15.2.Installers.dll assembly's progress.
+5/31/2018 5:52:22 PM ::: The file is located at .
+5/31/2018 5:52:22 PM ::: Installing assembly 'C:\Program Files (x86)\DevExpress 15.2\Components\System\Components\DevExpress.Win.Projects.v15.2.Installers.dll'.
+5/31/2018 5:52:22 PM ::: Affected parameters are:
+5/31/2018 5:52:22 PM :::    showcallstack = 
+5/31/2018 5:52:22 PM :::    logfile = 
+5/31/2018 5:52:22 PM :::    version = 15.2.9
+5/31/2018 5:52:22 PM :::    component = Components
+5/31/2018 5:52:22 PM :::    assemblypath = C:\Program Files (x86)\DevExpress 15.2\Components\System\Components\DevExpress.Win.Projects.v15.2.Installers.dll
+5/31/2018 5:52:22 PM :::    logtoconsole = true
+5/31/2018 5:52:22 PM :::    demosdir = C:\Users\Public\Documents\DevExpress Demos 15.2\Components
+5/31/2018 5:52:22 PM :::    installdir = C:\Program Files (x86)\DevExpress 15.2\Components
+5/31/2018 5:52:22 PM :::    demosname = Components
+5/31/2018 5:52:22 PM ::: 2018.05.31 17.52.22	VSTemplatesInstaller	>	Install
+5/31/2018 5:52:22 PM ::: 2018.05.31 17.52.22	VSTemplatesInstaller	>	InternalInstall
+5/31/2018 5:52:22 PM ::: 2018.05.31 17.52.22	VSTemplatesInstaller	<	InternalInstall
+5/31/2018 5:52:22 PM ::: 2018.05.31 17.52.22	VSTemplatesInstaller	<	Install
+5/31/2018 5:52:22 PM ::: 
+5/31/2018 5:52:22 PM ::: The Install phase completed successfully, and the Commit phase is beginning.
+5/31/2018 5:52:22 PM ::: See the contents of the log file for the C:\Program Files (x86)\DevExpress 15.2\Components\System\Components\DevExpress.Win.Projects.v15.2.Installers.dll assembly's progress.
+5/31/2018 5:52:22 PM ::: The file is located at .
+5/31/2018 5:52:22 PM ::: Committing assembly 'C:\Program Files (x86)\DevExpress 15.2\Components\System\Components\DevExpress.Win.Projects.v15.2.Installers.dll'.
+5/31/2018 5:52:22 PM ::: Affected parameters are:
+5/31/2018 5:52:22 PM :::    showcallstack = 
+5/31/2018 5:52:22 PM :::    logfile = 
+5/31/2018 5:52:22 PM :::    version = 15.2.9
+5/31/2018 5:52:22 PM :::    component = Components
+5/31/2018 5:52:22 PM :::    assemblypath = C:\Program Files (x86)\DevExpress 15.2\Components\System\Components\DevExpress.Win.Projects.v15.2.Installers.dll
+5/31/2018 5:52:22 PM :::    logtoconsole = true
+5/31/2018 5:52:22 PM :::    demosdir = C:\Users\Public\Documents\DevExpress Demos 15.2\Components
+5/31/2018 5:52:22 PM :::    installdir = C:\Program Files (x86)\DevExpress 15.2\Components
+5/31/2018 5:52:22 PM :::    demosname = Components
+5/31/2018 5:52:22 PM ::: 
+5/31/2018 5:52:22 PM ::: The Commit phase completed successfully.
+5/31/2018 5:52:22 PM ::: 
+5/31/2018 5:52:22 PM ::: The transacted install has completed.
+5/31/2018 5:52:22 PM ::: 
+5/31/2018 5:52:22 PM ... waiting termination
+5/31/2018 5:52:22 PM ... process terminated
+5/31/2018 5:52:22 PM ::: ExecuteApp: C:\Windows\Microsoft.NET\Framework\v4.0.30319\InstallUtil.exe /LogToConsole=true /LogFile= /ShowCallStack /InstallDir="C:\Program Files (x86)\DevExpress 15.2\Components" /DemosDir="C:\Users\Public\Documents\DevExpress Demos 15.2\Components" /Version="15.2.9" /Component="Components" /DemosName="Components" "C:\Program Files (x86)\DevExpress 15.2\Components\System\Components\DevExpress.Logify.Installer.dll" 
+5/31/2018 5:52:22 PM ... process created
+5/31/2018 5:52:22 PM ... read process output
+5/31/2018 5:52:22 PM ::: Microsoft (R) .NET Framework Installation utility Version 4.7.2556.0
+5/31/2018 5:52:22 PM ::: Copyright (C) Microsoft Corporation.  All rights reserved.
+5/31/2018 5:52:22 PM ::: 
+5/31/2018 5:52:22 PM ::: 
+5/31/2018 5:52:22 PM ::: Running a transacted installation.
+5/31/2018 5:52:22 PM ::: 
+5/31/2018 5:52:22 PM ::: Beginning the Install phase of the installation.
+5/31/2018 5:52:22 PM ::: See the contents of the log file for the C:\Program Files (x86)\DevExpress 15.2\Components\System\Components\DevExpress.Logify.Installer.dll assembly's progress.
+5/31/2018 5:52:22 PM ::: The file is located at .
+5/31/2018 5:52:22 PM ::: Installing assembly 'C:\Program Files (x86)\DevExpress 15.2\Components\System\Components\DevExpress.Logify.Installer.dll'.
+5/31/2018 5:52:22 PM ::: Affected parameters are:
+5/31/2018 5:52:22 PM :::    showcallstack = 
+5/31/2018 5:52:22 PM :::    logfile = 
+5/31/2018 5:52:22 PM :::    version = 15.2.9
+5/31/2018 5:52:22 PM :::    component = Components
+5/31/2018 5:52:22 PM :::    assemblypath = C:\Program Files (x86)\DevExpress 15.2\Components\System\Components\DevExpress.Logify.Installer.dll
+5/31/2018 5:52:22 PM :::    logtoconsole = true
+5/31/2018 5:52:22 PM :::    demosdir = C:\Users\Public\Documents\DevExpress Demos 15.2\Components
+5/31/2018 5:52:22 PM :::    installdir = C:\Program Files (x86)\DevExpress 15.2\Components
+5/31/2018 5:52:22 PM :::    demosname = Components
+5/31/2018 5:52:22 PM ::: 
+5/31/2018 5:52:22 PM ::: The Install phase completed successfully, and the Commit phase is beginning.
+5/31/2018 5:52:22 PM ::: See the contents of the log file for the C:\Program Files (x86)\DevExpress 15.2\Components\System\Components\DevExpress.Logify.Installer.dll assembly's progress.
+5/31/2018 5:52:22 PM ::: The file is located at .
+5/31/2018 5:52:22 PM ::: Committing assembly 'C:\Program Files (x86)\DevExpress 15.2\Components\System\Components\DevExpress.Logify.Installer.dll'.
+5/31/2018 5:52:22 PM ::: Affected parameters are:
+5/31/2018 5:52:22 PM :::    showcallstack = 
+5/31/2018 5:52:22 PM :::    logfile = 
+5/31/2018 5:52:22 PM :::    version = 15.2.9
+5/31/2018 5:52:22 PM :::    component = Components
+5/31/2018 5:52:22 PM :::    assemblypath = C:\Program Files (x86)\DevExpress 15.2\Components\System\Components\DevExpress.Logify.Installer.dll
+5/31/2018 5:52:22 PM :::    logtoconsole = true
+5/31/2018 5:52:22 PM :::    demosdir = C:\Users\Public\Documents\DevExpress Demos 15.2\Components
+5/31/2018 5:52:22 PM :::    installdir = C:\Program Files (x86)\DevExpress 15.2\Components
+5/31/2018 5:52:22 PM :::    demosname = Components
+5/31/2018 5:52:22 PM ::: 
+5/31/2018 5:52:22 PM ::: The Commit phase completed successfully.
+5/31/2018 5:52:22 PM ::: 
+5/31/2018 5:52:22 PM ::: The transacted install has completed.
+5/31/2018 5:52:22 PM ::: 
+5/31/2018 5:52:22 PM ... waiting termination
+5/31/2018 5:52:22 PM ... process terminated
+5/31/2018 5:52:22 PM ::: ExecuteApp: C:\Windows\Microsoft.NET\Framework\v4.0.30319\InstallUtil.exe /LogToConsole=true /LogFile= /ShowCallStack /InstallDir="C:\Program Files (x86)\DevExpress 15.2\Components" /DemosDir="C:\Users\Public\Documents\DevExpress Demos 15.2\Components" /Version="15.2.9" /Component="DevExpressMenu" /DemosName="" "C:\Program Files (x86)\DevExpress 15.2\Components\System\DevExpressMenu\Bin\DevExpress.Menu.Installer.dll" 
+5/31/2018 5:52:22 PM ... process created
+5/31/2018 5:52:22 PM ... read process output
+5/31/2018 5:52:22 PM ::: Microsoft (R) .NET Framework Installation utility Version 4.7.2556.0
+5/31/2018 5:52:22 PM ::: Copyright (C) Microsoft Corporation.  All rights reserved.
+5/31/2018 5:52:22 PM ::: 
+5/31/2018 5:52:22 PM ::: 
+5/31/2018 5:52:22 PM ::: Running a transacted installation.
+5/31/2018 5:52:22 PM ::: 
+5/31/2018 5:52:22 PM ::: Beginning the Install phase of the installation.
+5/31/2018 5:52:22 PM ::: See the contents of the log file for the C:\Program Files (x86)\DevExpress 15.2\Components\System\DevExpressMenu\Bin\DevExpress.Menu.Installer.dll assembly's progress.
+5/31/2018 5:52:22 PM ::: The file is located at .
+5/31/2018 5:52:22 PM ::: Installing assembly 'C:\Program Files (x86)\DevExpress 15.2\Components\System\DevExpressMenu\Bin\DevExpress.Menu.Installer.dll'.
+5/31/2018 5:52:22 PM ::: Affected parameters are:
+5/31/2018 5:52:22 PM :::    showcallstack = 
+5/31/2018 5:52:22 PM :::    logfile = 
+5/31/2018 5:52:22 PM :::    version = 15.2.9
+5/31/2018 5:52:22 PM :::    component = DevExpressMenu
+5/31/2018 5:52:22 PM :::    assemblypath = C:\Program Files (x86)\DevExpress 15.2\Components\System\DevExpressMenu\Bin\DevExpress.Menu.Installer.dll
+5/31/2018 5:52:22 PM :::    logtoconsole = true
+5/31/2018 5:52:22 PM :::    demosdir = C:\Users\Public\Documents\DevExpress Demos 15.2\Components
+5/31/2018 5:52:22 PM :::    installdir = C:\Program Files (x86)\DevExpress 15.2\Components
+5/31/2018 5:52:22 PM :::    demosname = 
+5/31/2018 5:52:22 PM ::: 2018.05.31 17.52.22	VS10RegistryKeyInstaller	>	Install
+5/31/2018 5:52:22 PM ::: 2018.05.31 17.52.22	VS10RegistryKeyInstaller	>	InternalInstall
+5/31/2018 5:52:22 PM ::: 2018.05.31 17.52.22	VS10RegistryKeyInstaller	<	InternalInstall
+5/31/2018 5:52:22 PM ::: 2018.05.31 17.52.22	VS10RegistryKeyInstaller	<	Install
+5/31/2018 5:52:22 PM ::: 2018.05.31 17.52.22	VS11RegistryKeyInstaller	>	Install
+5/31/2018 5:52:22 PM ::: 2018.05.31 17.52.22	VS11RegistryKeyInstaller	>	InternalInstall
+5/31/2018 5:52:22 PM ::: 2018.05.31 17.52.22	VS11RegistryKeyInstaller	<	InternalInstall
+5/31/2018 5:52:22 PM ::: 2018.05.31 17.52.22	VS11RegistryKeyInstaller	<	Install
+5/31/2018 5:52:22 PM ::: 2018.05.31 17.52.22	VS12RegistryKeyInstaller	>	Install
+5/31/2018 5:52:22 PM ::: 2018.05.31 17.52.22	VS12RegistryKeyInstaller	>	InternalInstall
+5/31/2018 5:52:22 PM ::: 2018.05.31 17.52.22	VS12RegistryKeyInstaller	<	InternalInstall
+5/31/2018 5:52:22 PM ::: 2018.05.31 17.52.22	VS12RegistryKeyInstaller	<	Install
+5/31/2018 5:52:22 PM ::: 2018.05.31 17.52.22	VS14RegistryKeyInstaller	>	Install
+5/31/2018 5:52:22 PM ::: 2018.05.31 17.52.22	VS14RegistryKeyInstaller	>	InternalInstall
+5/31/2018 5:52:22 PM ::: 2018.05.31 17.52.22	VS14RegistryKeyInstaller	<	InternalInstall
+5/31/2018 5:52:22 PM ::: 2018.05.31 17.52.22	VS14RegistryKeyInstaller	<	Install
+5/31/2018 5:52:22 PM ::: 2018.05.31 17.52.22	VS8RegistryKeyInstaller	>	Install
+5/31/2018 5:52:22 PM ::: 2018.05.31 17.52.22	VS8RegistryKeyInstaller	>	InternalInstall
+5/31/2018 5:52:22 PM ::: 2018.05.31 17.52.22	VS8RegistryKeyInstaller	<	InternalInstall
+5/31/2018 5:52:22 PM ::: 2018.05.31 17.52.22	VS8RegistryKeyInstaller	<	Install
+5/31/2018 5:52:22 PM ::: 2018.05.31 17.52.22	VS9RegistryKeyInstaller	>	Install
+5/31/2018 5:52:22 PM ::: 2018.05.31 17.52.22	VS9RegistryKeyInstaller	>	InternalInstall
+5/31/2018 5:52:22 PM ::: 2018.05.31 17.52.22	VS9RegistryKeyInstaller	<	InternalInstall
+5/31/2018 5:52:22 PM ::: 2018.05.31 17.52.22	VS9RegistryKeyInstaller	<	Install
+5/31/2018 5:52:22 PM ::: 
+5/31/2018 5:52:22 PM ::: The Install phase completed successfully, and the Commit phase is beginning.
+5/31/2018 5:52:22 PM ::: See the contents of the log file for the C:\Program Files (x86)\DevExpress 15.2\Components\System\DevExpressMenu\Bin\DevExpress.Menu.Installer.dll assembly's progress.
+5/31/2018 5:52:22 PM ::: The file is located at .
+5/31/2018 5:52:22 PM ::: Committing assembly 'C:\Program Files (x86)\DevExpress 15.2\Components\System\DevExpressMenu\Bin\DevExpress.Menu.Installer.dll'.
+5/31/2018 5:52:22 PM ::: Affected parameters are:
+5/31/2018 5:52:22 PM :::    showcallstack = 
+5/31/2018 5:52:22 PM :::    logfile = 
+5/31/2018 5:52:22 PM :::    version = 15.2.9
+5/31/2018 5:52:22 PM :::    component = DevExpressMenu
+5/31/2018 5:52:22 PM :::    assemblypath = C:\Program Files (x86)\DevExpress 15.2\Components\System\DevExpressMenu\Bin\DevExpress.Menu.Installer.dll
+5/31/2018 5:52:22 PM :::    logtoconsole = true
+5/31/2018 5:52:22 PM :::    demosdir = C:\Users\Public\Documents\DevExpress Demos 15.2\Components
+5/31/2018 5:52:22 PM :::    installdir = C:\Program Files (x86)\DevExpress 15.2\Components
+5/31/2018 5:52:23 PM :::    demosname = 
+5/31/2018 5:52:23 PM ::: 
+5/31/2018 5:52:23 PM ::: The Commit phase completed successfully.
+5/31/2018 5:52:23 PM ::: 
+5/31/2018 5:52:23 PM ::: The transacted install has completed.
+5/31/2018 5:52:23 PM ::: 
+5/31/2018 5:52:23 PM ... waiting termination
+5/31/2018 5:52:23 PM ... process terminated
+5/31/2018 5:52:23 PM ::: ExecuteApp: C:\Windows\Microsoft.NET\Framework\v4.0.30319\InstallUtil.exe /LogToConsole=true /LogFile= /ShowCallStack /InstallDir="C:\Program Files (x86)\DevExpress 15.2\Components" /DemosDir="C:\Users\Public\Documents\DevExpress Demos 15.2\Components" /Version="15.2.9" /Component="DevExpressProjectType" /DemosName="" "C:\Program Files (x86)\DevExpress 15.2\Components\System\DevExpressProjectType\Bin\DevExpress.ProjectType.Installer.dll" 
+5/31/2018 5:52:23 PM ... process created
+5/31/2018 5:52:23 PM ... read process output
+5/31/2018 5:52:23 PM ::: Microsoft (R) .NET Framework Installation utility Version 4.7.2556.0
+5/31/2018 5:52:23 PM ::: Copyright (C) Microsoft Corporation.  All rights reserved.
+5/31/2018 5:52:23 PM ::: 
+5/31/2018 5:52:23 PM ::: 
+5/31/2018 5:52:23 PM ::: Running a transacted installation.
+5/31/2018 5:52:23 PM ::: 
+5/31/2018 5:52:23 PM ::: Beginning the Install phase of the installation.
+5/31/2018 5:52:23 PM ::: See the contents of the log file for the C:\Program Files (x86)\DevExpress 15.2\Components\System\DevExpressProjectType\Bin\DevExpress.ProjectType.Installer.dll assembly's progress.
+5/31/2018 5:52:23 PM ::: The file is located at .
+5/31/2018 5:52:23 PM ::: Installing assembly 'C:\Program Files (x86)\DevExpress 15.2\Components\System\DevExpressProjectType\Bin\DevExpress.ProjectType.Installer.dll'.
+5/31/2018 5:52:23 PM ::: Affected parameters are:
+5/31/2018 5:52:23 PM :::    showcallstack = 
+5/31/2018 5:52:23 PM :::    logfile = 
+5/31/2018 5:52:23 PM :::    version = 15.2.9
+5/31/2018 5:52:23 PM :::    component = DevExpressProjectType
+5/31/2018 5:52:23 PM :::    assemblypath = C:\Program Files (x86)\DevExpress 15.2\Components\System\DevExpressProjectType\Bin\DevExpress.ProjectType.Installer.dll
+5/31/2018 5:52:23 PM :::    logtoconsole = true
+5/31/2018 5:52:23 PM :::    demosdir = C:\Users\Public\Documents\DevExpress Demos 15.2\Components
+5/31/2018 5:52:23 PM :::    installdir = C:\Program Files (x86)\DevExpress 15.2\Components
+5/31/2018 5:52:23 PM :::    demosname = 
+5/31/2018 5:52:23 PM ::: 2018.05.31 17.52.23	VS9RegistryKeyInstaller	>	Install
+5/31/2018 5:52:23 PM ::: 2018.05.31 17.52.23	VS9RegistryKeyInstaller	>	InternalInstall
+5/31/2018 5:52:23 PM ::: 2018.05.31 17.52.23	VS9RegistryKeyInstaller	<	InternalInstall
+5/31/2018 5:52:23 PM ::: 2018.05.31 17.52.23	VS9RegistryKeyInstaller	<	Install
+5/31/2018 5:52:23 PM ::: 2018.05.31 17.52.23	VS10RegistryKeyInstaller	>	Install
+5/31/2018 5:52:23 PM ::: 2018.05.31 17.52.23	VS10RegistryKeyInstaller	>	InternalInstall
+5/31/2018 5:52:23 PM ::: 2018.05.31 17.52.23	VS10RegistryKeyInstaller	<	InternalInstall
+5/31/2018 5:52:23 PM ::: 2018.05.31 17.52.23	VS10RegistryKeyInstaller	<	Install
+5/31/2018 5:52:23 PM ::: 2018.05.31 17.52.23	VS11ExtensionMgrInstaller	>	Install
+5/31/2018 5:52:23 PM ::: 2018.05.31 17.52.23	VS11ExtensionMgrInstaller	>	InternalInstall
+5/31/2018 5:52:23 PM ::: 2018.05.31 17.52.23	VS11ExtensionMgrInstaller	<	InternalInstall
+5/31/2018 5:52:23 PM ::: 2018.05.31 17.52.23	VS11ExtensionMgrInstaller	<	Install
+5/31/2018 5:52:23 PM ::: 2018.05.31 17.52.23	VS12ExtensionMgrInstaller	>	Install
+5/31/2018 5:52:23 PM ::: 2018.05.31 17.52.23	VS12ExtensionMgrInstaller	>	InternalInstall
+5/31/2018 5:52:23 PM ::: 2018.05.31 17.52.23	VS12ExtensionMgrInstaller	<	InternalInstall
+5/31/2018 5:52:23 PM ::: 2018.05.31 17.52.23	VS12ExtensionMgrInstaller	<	Install
+5/31/2018 5:52:23 PM ::: 2018.05.31 17.52.23	VS14ExtensionMgrInstaller	>	Install
+5/31/2018 5:52:23 PM ::: 2018.05.31 17.52.23	VS14ExtensionMgrInstaller	>	InternalInstall
+5/31/2018 5:52:23 PM ::: 2018.05.31 17.52.23	VS14ExtensionMgrInstaller	<	InternalInstall
+5/31/2018 5:52:23 PM ::: 2018.05.31 17.52.23	VS14ExtensionMgrInstaller	<	Install
+5/31/2018 5:52:23 PM ::: 
+5/31/2018 5:52:23 PM ::: The Install phase completed successfully, and the Commit phase is beginning.
+5/31/2018 5:52:23 PM ::: See the contents of the log file for the C:\Program Files (x86)\DevExpress 15.2\Components\System\DevExpressProjectType\Bin\DevExpress.ProjectType.Installer.dll assembly's progress.
+5/31/2018 5:52:23 PM ::: The file is located at .
+5/31/2018 5:52:23 PM ::: Committing assembly 'C:\Program Files (x86)\DevExpress 15.2\Components\System\DevExpressProjectType\Bin\DevExpress.ProjectType.Installer.dll'.
+5/31/2018 5:52:23 PM ::: Affected parameters are:
+5/31/2018 5:52:23 PM :::    showcallstack = 
+5/31/2018 5:52:23 PM :::    logfile = 
+5/31/2018 5:52:23 PM :::    version = 15.2.9
+5/31/2018 5:52:23 PM :::    component = DevExpressProjectType
+5/31/2018 5:52:23 PM :::    assemblypath = C:\Program Files (x86)\DevExpress 15.2\Components\System\DevExpressProjectType\Bin\DevExpress.ProjectType.Installer.dll
+5/31/2018 5:52:23 PM :::    logtoconsole = true
+5/31/2018 5:52:23 PM :::    demosdir = C:\Users\Public\Documents\DevExpress Demos 15.2\Components
+5/31/2018 5:52:23 PM :::    installdir = C:\Program Files (x86)\DevExpress 15.2\Components
+5/31/2018 5:52:23 PM :::    demosname = 
+5/31/2018 5:52:23 PM ::: 
+5/31/2018 5:52:23 PM ::: The Commit phase completed successfully.
+5/31/2018 5:52:23 PM ::: 
+5/31/2018 5:52:23 PM ::: The transacted install has completed.
+5/31/2018 5:52:23 PM ::: 
+5/31/2018 5:52:23 PM ... waiting termination
+5/31/2018 5:52:23 PM ... process terminated
+5/31/2018 5:52:23 PM ::: ExecuteApp: C:\Windows\Microsoft.NET\Framework\v4.0.30319\InstallUtil.exe /LogToConsole=true /LogFile= /ShowCallStack /InstallDir="C:\Program Files (x86)\DevExpress 15.2\Components" /DemosDir="C:\Users\Public\Documents\DevExpress Demos 15.2\Components" /Version="15.2.9" /Component="DevExpressProjectType" /DemosName="" "C:\Program Files (x86)\DevExpress 15.2\Components\System\DevExpressProjectType\Bin\DevExpress.ProjectTypeVB.Installer.dll" 
+5/31/2018 5:52:23 PM ... process created
+5/31/2018 5:52:23 PM ... read process output
+5/31/2018 5:52:23 PM ::: Microsoft (R) .NET Framework Installation utility Version 4.7.2556.0
+5/31/2018 5:52:23 PM ::: Copyright (C) Microsoft Corporation.  All rights reserved.
+5/31/2018 5:52:23 PM ::: 
+5/31/2018 5:52:23 PM ::: 
+5/31/2018 5:52:23 PM ::: Running a transacted installation.
+5/31/2018 5:52:23 PM ::: 
+5/31/2018 5:52:23 PM ::: Beginning the Install phase of the installation.
+5/31/2018 5:52:23 PM ::: See the contents of the log file for the C:\Program Files (x86)\DevExpress 15.2\Components\System\DevExpressProjectType\Bin\DevExpress.ProjectTypeVB.Installer.dll assembly's progress.
+5/31/2018 5:52:23 PM ::: The file is located at .
+5/31/2018 5:52:23 PM ::: Installing assembly 'C:\Program Files (x86)\DevExpress 15.2\Components\System\DevExpressProjectType\Bin\DevExpress.ProjectTypeVB.Installer.dll'.
+5/31/2018 5:52:23 PM ::: Affected parameters are:
+5/31/2018 5:52:23 PM :::    showcallstack = 
+5/31/2018 5:52:23 PM :::    logfile = 
+5/31/2018 5:52:23 PM :::    version = 15.2.9
+5/31/2018 5:52:23 PM :::    component = DevExpressProjectType
+5/31/2018 5:52:23 PM :::    assemblypath = C:\Program Files (x86)\DevExpress 15.2\Components\System\DevExpressProjectType\Bin\DevExpress.ProjectTypeVB.Installer.dll
+5/31/2018 5:52:23 PM :::    logtoconsole = true
+5/31/2018 5:52:23 PM :::    demosdir = C:\Users\Public\Documents\DevExpress Demos 15.2\Components
+5/31/2018 5:52:23 PM :::    installdir = C:\Program Files (x86)\DevExpress 15.2\Components
+5/31/2018 5:52:23 PM :::    demosname = 
+5/31/2018 5:52:23 PM ::: 2018.05.31 17.52.23	VS9RegistryKeyInstaller	>	Install
+5/31/2018 5:52:23 PM ::: 2018.05.31 17.52.23	VS9RegistryKeyInstaller	>	InternalInstall
+5/31/2018 5:52:23 PM ::: 2018.05.31 17.52.23	VS9RegistryKeyInstaller	<	InternalInstall
+5/31/2018 5:52:23 PM ::: 2018.05.31 17.52.23	VS9RegistryKeyInstaller	<	Install
+5/31/2018 5:52:23 PM ::: 2018.05.31 17.52.23	VS10RegistryKeyInstaller	>	Install
+5/31/2018 5:52:23 PM ::: 2018.05.31 17.52.23	VS10RegistryKeyInstaller	>	InternalInstall
+5/31/2018 5:52:23 PM ::: 2018.05.31 17.52.23	VS10RegistryKeyInstaller	<	InternalInstall
+5/31/2018 5:52:23 PM ::: 2018.05.31 17.52.23	VS10RegistryKeyInstaller	<	Install
+5/31/2018 5:52:23 PM ::: 2018.05.31 17.52.23	VS11ExtensionMgrInstaller	>	Install
+5/31/2018 5:52:23 PM ::: 2018.05.31 17.52.23	VS11ExtensionMgrInstaller	>	InternalInstall
+5/31/2018 5:52:23 PM ::: 2018.05.31 17.52.23	VS11ExtensionMgrInstaller	<	InternalInstall
+5/31/2018 5:52:23 PM ::: 2018.05.31 17.52.23	VS11ExtensionMgrInstaller	<	Install
+5/31/2018 5:52:23 PM ::: 2018.05.31 17.52.23	VS12ExtensionMgrInstaller	>	Install
+5/31/2018 5:52:23 PM ::: 2018.05.31 17.52.23	VS12ExtensionMgrInstaller	>	InternalInstall
+5/31/2018 5:52:23 PM ::: 2018.05.31 17.52.23	VS12ExtensionMgrInstaller	<	InternalInstall
+5/31/2018 5:52:23 PM ::: 2018.05.31 17.52.23	VS12ExtensionMgrInstaller	<	Install
+5/31/2018 5:52:23 PM ::: 2018.05.31 17.52.23	VS14ExtensionMgrInstaller	>	Install
+5/31/2018 5:52:23 PM ::: 2018.05.31 17.52.23	VS14ExtensionMgrInstaller	>	InternalInstall
+5/31/2018 5:52:23 PM ::: 2018.05.31 17.52.23	VS14ExtensionMgrInstaller	<	InternalInstall
+5/31/2018 5:52:23 PM ::: 2018.05.31 17.52.23	VS14ExtensionMgrInstaller	<	Install
+5/31/2018 5:52:23 PM ::: 
+5/31/2018 5:52:23 PM ::: The Install phase completed successfully, and the Commit phase is beginning.
+5/31/2018 5:52:23 PM ::: See the contents of the log file for the C:\Program Files (x86)\DevExpress 15.2\Components\System\DevExpressProjectType\Bin\DevExpress.ProjectTypeVB.Installer.dll assembly's progress.
+5/31/2018 5:52:23 PM ::: The file is located at .
+5/31/2018 5:52:23 PM ::: Committing assembly 'C:\Program Files (x86)\DevExpress 15.2\Components\System\DevExpressProjectType\Bin\DevExpress.ProjectTypeVB.Installer.dll'.
+5/31/2018 5:52:23 PM ::: Affected parameters are:
+5/31/2018 5:52:23 PM :::    showcallstack = 
+5/31/2018 5:52:23 PM :::    logfile = 
+5/31/2018 5:52:23 PM :::    version = 15.2.9
+5/31/2018 5:52:23 PM :::    component = DevExpressProjectType
+5/31/2018 5:52:23 PM :::    assemblypath = C:\Program Files (x86)\DevExpress 15.2\Components\System\DevExpressProjectType\Bin\DevExpress.ProjectTypeVB.Installer.dll
+5/31/2018 5:52:23 PM :::    logtoconsole = true
+5/31/2018 5:52:23 PM :::    demosdir = C:\Users\Public\Documents\DevExpress Demos 15.2\Components
+5/31/2018 5:52:23 PM :::    installdir = C:\Program Files (x86)\DevExpress 15.2\Components
+5/31/2018 5:52:23 PM :::    demosname = 
+5/31/2018 5:52:23 PM ::: 
+5/31/2018 5:52:23 PM ::: The Commit phase completed successfully.
+5/31/2018 5:52:23 PM ::: 
+5/31/2018 5:52:23 PM ::: The transacted install has completed.
+5/31/2018 5:52:23 PM ::: 
+5/31/2018 5:52:23 PM ... waiting termination
+5/31/2018 5:52:23 PM ... process terminated
+5/31/2018 5:52:23 PM ::: ExecuteApp: C:\Windows\Microsoft.NET\Framework\v4.0.30319\InstallUtil.exe /LogToConsole=true /LogFile= /ShowCallStack /InstallDir="C:\Program Files (x86)\DevExpress 15.2\Components" /DemosDir="C:\Users\Public\Documents\DevExpress Demos 15.2\Components" /Version="15.2.9" /Component="Windows Forms" /DemosName="WinForms" "C:\Program Files (x86)\DevExpress 15.2\Components\System\Windows Forms\CodedUIExtension.Registrar.dll" 
+5/31/2018 5:52:23 PM ... process created
+5/31/2018 5:52:23 PM ... read process output
+5/31/2018 5:52:23 PM ::: Microsoft (R) .NET Framework Installation utility Version 4.7.2556.0
+5/31/2018 5:52:23 PM ::: Copyright (C) Microsoft Corporation.  All rights reserved.
+5/31/2018 5:52:23 PM ::: 
+5/31/2018 5:52:23 PM ::: 
+5/31/2018 5:52:23 PM ::: Running a transacted installation.
+5/31/2018 5:52:23 PM ::: 
+5/31/2018 5:52:23 PM ::: Beginning the Install phase of the installation.
+5/31/2018 5:52:23 PM ::: See the contents of the log file for the C:\Program Files (x86)\DevExpress 15.2\Components\System\Windows Forms\CodedUIExtension.Registrar.dll assembly's progress.
+5/31/2018 5:52:23 PM ::: The file is located at .
+5/31/2018 5:52:23 PM ::: Installing assembly 'C:\Program Files (x86)\DevExpress 15.2\Components\System\Windows Forms\CodedUIExtension.Registrar.dll'.
+5/31/2018 5:52:23 PM ::: Affected parameters are:
+5/31/2018 5:52:23 PM :::    showcallstack = 
+5/31/2018 5:52:23 PM :::    logfile = 
+5/31/2018 5:52:23 PM :::    version = 15.2.9
+5/31/2018 5:52:23 PM :::    component = Windows Forms
+5/31/2018 5:52:23 PM :::    assemblypath = C:\Program Files (x86)\DevExpress 15.2\Components\System\Windows Forms\CodedUIExtension.Registrar.dll
+5/31/2018 5:52:23 PM :::    logtoconsole = true
+5/31/2018 5:52:23 PM :::    demosdir = C:\Users\Public\Documents\DevExpress Demos 15.2\Components
+5/31/2018 5:52:23 PM :::    installdir = C:\Program Files (x86)\DevExpress 15.2\Components
+5/31/2018 5:52:23 PM :::    demosname = WinForms
+5/31/2018 5:52:23 PM ::: 2018.05.31 17.52.23	CodedUIExtension.Registrar.Logger	>	Install
+5/31/2018 5:52:23 PM ::: 2018.05.31 17.52.23	CodedUIExtension.Registrar.Logger	VS2010 has been found
+5/31/2018 5:52:23 PM ::: 2018.05.31 17.52.23	CodedUIExtension.Registrar.Logger	VS2012 has been found
+5/31/2018 5:52:23 PM ::: 2018.05.31 17.52.23	CodedUIExtension.Registrar.Logger	VS2013 has been found
+5/31/2018 5:52:23 PM ::: 2018.05.31 17.52.23	CodedUIExtension.Registrar.Logger	VS2015 has been found
+5/31/2018 5:52:23 PM ::: 2018.05.31 17.52.23	CodedUIExtension.Registrar.Logger	CUIT Extension has been successfully registered for VS2010
+5/31/2018 5:52:48 PM ::: 2018.05.31 17.52.48	CodedUIExtension.Registrar.Logger	DevExpress.CodedUIExtension.v15.2.dll has been successfully installed to GAC
+5/31/2018 5:52:48 PM ::: 2018.05.31 17.52.48	CodedUIExtension.Registrar.Logger	CUIT Extension has been successfully registered for VS2012
+5/31/2018 5:52:49 PM ::: 2018.05.31 17.52.49	CodedUIExtension.Registrar.Logger	DevExpress.CodedUIExtension.VS11.v15.2.dll has been successfully installed to GAC
+5/31/2018 5:52:49 PM ::: 2018.05.31 17.52.49	CodedUIExtension.Registrar.Logger	CUIT Extension has been successfully registered for VS2013
+5/31/2018 5:52:51 PM ::: 2018.05.31 17.52.51	CodedUIExtension.Registrar.Logger	DevExpress.CodedUIExtension.VS12.v15.2.dll has been successfully installed to GAC
+5/31/2018 5:52:51 PM ::: 2018.05.31 17.52.51	CodedUIExtension.Registrar.Logger	CUIT Extension has been successfully registered for VS2015
+5/31/2018 5:52:52 PM ::: 2018.05.31 17.52.52	CodedUIExtension.Registrar.Logger	DevExpress.CodedUIExtension.VS14.v15.2.dll has been successfully installed to GAC
+5/31/2018 5:52:52 PM ::: 2018.05.31 17.52.52	CodedUIExtension.Registrar.Logger	<	Install
+5/31/2018 5:52:52 PM ::: 
+5/31/2018 5:52:52 PM ::: The Install phase completed successfully, and the Commit phase is beginning.
+5/31/2018 5:52:52 PM ::: See the contents of the log file for the C:\Program Files (x86)\DevExpress 15.2\Components\System\Windows Forms\CodedUIExtension.Registrar.dll assembly's progress.
+5/31/2018 5:52:52 PM ::: The file is located at .
+5/31/2018 5:52:52 PM ::: Committing assembly 'C:\Program Files (x86)\DevExpress 15.2\Components\System\Windows Forms\CodedUIExtension.Registrar.dll'.
+5/31/2018 5:52:52 PM ::: Affected parameters are:
+5/31/2018 5:52:52 PM :::    showcallstack = 
+5/31/2018 5:52:52 PM :::    logfile = 
+5/31/2018 5:52:52 PM :::    version = 15.2.9
+5/31/2018 5:52:52 PM :::    component = Windows Forms
+5/31/2018 5:52:52 PM :::    assemblypath = C:\Program Files (x86)\DevExpress 15.2\Components\System\Windows Forms\CodedUIExtension.Registrar.dll
+5/31/2018 5:52:52 PM :::    logtoconsole = true
+5/31/2018 5:52:52 PM :::    demosdir = C:\Users\Public\Documents\DevExpress Demos 15.2\Components
+5/31/2018 5:52:52 PM :::    installdir = C:\Program Files (x86)\DevExpress 15.2\Components
+5/31/2018 5:52:52 PM :::    demosname = WinForms
+5/31/2018 5:52:52 PM ::: 
+5/31/2018 5:52:52 PM ::: The Commit phase completed successfully.
+5/31/2018 5:52:52 PM ::: 
+5/31/2018 5:52:52 PM ::: The transacted install has completed.
+5/31/2018 5:52:52 PM ::: 
+5/31/2018 5:52:52 PM ... waiting termination
+5/31/2018 5:52:52 PM ... process terminated
+5/31/2018 5:52:52 PM ::: ExecuteApp: C:\Windows\Microsoft.NET\Framework\v4.0.30319\InstallUtil.exe /LogToConsole=true /LogFile= /ShowCallStack /InstallDir="C:\Program Files (x86)\DevExpress 15.2\Components" /DemosDir="C:\Users\Public\Documents\DevExpress Demos 15.2\Components" /Version="15.2.9" /Component="XPO" /DemosName="" "C:\Program Files (x86)\DevExpress 15.2\Components\System\XPO\DevExpress.Xpo.v15.2.Installer.dll" 
+5/31/2018 5:52:52 PM ... process created
+5/31/2018 5:52:52 PM ... read process output
+5/31/2018 5:52:52 PM ::: Microsoft (R) .NET Framework Installation utility Version 4.7.2556.0
+5/31/2018 5:52:52 PM ::: Copyright (C) Microsoft Corporation.  All rights reserved.
+5/31/2018 5:52:52 PM ::: 
+5/31/2018 5:52:52 PM ::: 
+5/31/2018 5:52:52 PM ::: Running a transacted installation.
+5/31/2018 5:52:52 PM ::: 
+5/31/2018 5:52:52 PM ::: Beginning the Install phase of the installation.
+5/31/2018 5:52:52 PM ::: See the contents of the log file for the C:\Program Files (x86)\DevExpress 15.2\Components\System\XPO\DevExpress.Xpo.v15.2.Installer.dll assembly's progress.
+5/31/2018 5:52:52 PM ::: The file is located at .
+5/31/2018 5:52:52 PM ::: Installing assembly 'C:\Program Files (x86)\DevExpress 15.2\Components\System\XPO\DevExpress.Xpo.v15.2.Installer.dll'.
+5/31/2018 5:52:52 PM ::: Affected parameters are:
+5/31/2018 5:52:52 PM :::    showcallstack = 
+5/31/2018 5:52:52 PM :::    logfile = 
+5/31/2018 5:52:52 PM :::    version = 15.2.9
+5/31/2018 5:52:52 PM :::    component = XPO
+5/31/2018 5:52:52 PM :::    assemblypath = C:\Program Files (x86)\DevExpress 15.2\Components\System\XPO\DevExpress.Xpo.v15.2.Installer.dll
+5/31/2018 5:52:52 PM :::    logtoconsole = true
+5/31/2018 5:52:52 PM :::    demosdir = C:\Users\Public\Documents\DevExpress Demos 15.2\Components
+5/31/2018 5:52:52 PM :::    installdir = C:\Program Files (x86)\DevExpress 15.2\Components
+5/31/2018 5:52:52 PM :::    demosname = 
+5/31/2018 5:52:52 PM ::: 2018.05.31 17.52.52	AddInsInstaller	>	Install
+5/31/2018 5:52:52 PM ::: 2018.05.31 17.52.52	AddInsInstaller	>	InternalInstall
+5/31/2018 5:52:52 PM ::: 2018.05.31 17.52.52	AddInsInstaller	<	InternalInstall
+5/31/2018 5:52:52 PM ::: 2018.05.31 17.52.52	AddInsInstaller	<	Install
+5/31/2018 5:52:52 PM ::: 2018.05.31 17.52.52	AddVSIXInsInstaller	>	Install
+5/31/2018 5:52:52 PM ::: 2018.05.31 17.52.52	AddVSIXInsInstaller	>	InternalInstall
+5/31/2018 5:52:52 PM ::: 2018.05.31 17.52.52	AddVSIXInsInstaller	<	InternalInstall
+5/31/2018 5:52:52 PM ::: 2018.05.31 17.52.52	AddVSIXInsInstaller	<	Install
+5/31/2018 5:52:52 PM ::: 
+5/31/2018 5:52:52 PM ::: The Install phase completed successfully, and the Commit phase is beginning.
+5/31/2018 5:52:52 PM ::: See the contents of the log file for the C:\Program Files (x86)\DevExpress 15.2\Components\System\XPO\DevExpress.Xpo.v15.2.Installer.dll assembly's progress.
+5/31/2018 5:52:52 PM ::: The file is located at .
+5/31/2018 5:52:52 PM ::: Committing assembly 'C:\Program Files (x86)\DevExpress 15.2\Components\System\XPO\DevExpress.Xpo.v15.2.Installer.dll'.
+5/31/2018 5:52:52 PM ::: Affected parameters are:
+5/31/2018 5:52:52 PM :::    showcallstack = 
+5/31/2018 5:52:52 PM :::    logfile = 
+5/31/2018 5:52:52 PM :::    version = 15.2.9
+5/31/2018 5:52:52 PM :::    component = XPO
+5/31/2018 5:52:52 PM :::    assemblypath = C:\Program Files (x86)\DevExpress 15.2\Components\System\XPO\DevExpress.Xpo.v15.2.Installer.dll
+5/31/2018 5:52:52 PM :::    logtoconsole = true
+5/31/2018 5:52:52 PM :::    demosdir = C:\Users\Public\Documents\DevExpress Demos 15.2\Components
+5/31/2018 5:52:52 PM :::    installdir = C:\Program Files (x86)\DevExpress 15.2\Components
+5/31/2018 5:52:52 PM :::    demosname = 
+5/31/2018 5:52:52 PM ::: 
+5/31/2018 5:52:52 PM ::: The Commit phase completed successfully.
+5/31/2018 5:52:52 PM ::: 
+5/31/2018 5:52:52 PM ::: The transacted install has completed.
+5/31/2018 5:52:52 PM ::: 
+5/31/2018 5:52:52 PM ... waiting termination
+5/31/2018 5:52:52 PM ... process terminated
+5/31/2018 5:52:52 PM ::: ExecuteApp: C:\Windows\Microsoft.NET\Framework\v4.0.30319\InstallUtil.exe /LogToConsole=true /LogFile= /ShowCallStack /InstallDir="C:\Program Files (x86)\DevExpress 15.2\Components" /DemosDir="C:\Users\Public\Documents\DevExpress Demos 15.2\Components" /Version="15.2.9" /Component="XtraReportsCommon" /DemosName="" "C:\Program Files (x86)\DevExpress 15.2\Components\System\XtraReportsCommon\DevExpress.XtraReports.v15.2.Installer.dll" 
+5/31/2018 5:52:52 PM ... process created
+5/31/2018 5:52:52 PM ... read process output
+5/31/2018 5:52:53 PM ::: Microsoft (R) .NET Framework Installation utility Version 4.7.2556.0
+5/31/2018 5:52:53 PM ::: Copyright (C) Microsoft Corporation.  All rights reserved.
+5/31/2018 5:52:53 PM ::: 
+5/31/2018 5:52:53 PM ::: 
+5/31/2018 5:52:53 PM ::: Running a transacted installation.
+5/31/2018 5:52:53 PM ::: 
+5/31/2018 5:52:53 PM ::: Beginning the Install phase of the installation.
+5/31/2018 5:52:53 PM ::: See the contents of the log file for the C:\Program Files (x86)\DevExpress 15.2\Components\System\XtraReportsCommon\DevExpress.XtraReports.v15.2.Installer.dll assembly's progress.
+5/31/2018 5:52:53 PM ::: The file is located at .
+5/31/2018 5:52:53 PM ::: Installing assembly 'C:\Program Files (x86)\DevExpress 15.2\Components\System\XtraReportsCommon\DevExpress.XtraReports.v15.2.Installer.dll'.
+5/31/2018 5:52:53 PM ::: Affected parameters are:
+5/31/2018 5:52:53 PM :::    showcallstack = 
+5/31/2018 5:52:53 PM :::    logfile = 
+5/31/2018 5:52:53 PM :::    version = 15.2.9
+5/31/2018 5:52:53 PM :::    component = XtraReportsCommon
+5/31/2018 5:52:53 PM :::    assemblypath = C:\Program Files (x86)\DevExpress 15.2\Components\System\XtraReportsCommon\DevExpress.XtraReports.v15.2.Installer.dll
+5/31/2018 5:52:53 PM :::    logtoconsole = true
+5/31/2018 5:52:53 PM :::    demosdir = C:\Users\Public\Documents\DevExpress Demos 15.2\Components
+5/31/2018 5:52:53 PM :::    installdir = C:\Program Files (x86)\DevExpress 15.2\Components
+5/31/2018 5:52:53 PM :::    demosname = 
+5/31/2018 5:52:53 PM ::: 2018.05.31 17.52.53	XtraReportsInstallerWhidbey	>	Install
+5/31/2018 5:52:53 PM ::: 2018.05.31 17.52.53	XtraReportsInstallerWhidbey	>	Install
+5/31/2018 5:52:53 PM ::: 2018.05.31 17.52.53	PackageInstaller	>	Install
+5/31/2018 5:52:53 PM ::: 2018.05.31 17.52.53	PackageInstaller	>	InternalInstall
+5/31/2018 5:52:53 PM ::: 2018.05.31 17.52.53	PackageInstaller	<	InternalInstall
+5/31/2018 5:52:53 PM ::: 2018.05.31 17.52.53	PackageInstaller	<	Install
+5/31/2018 5:52:53 PM ::: 2018.05.31 17.52.53	ExcludeTemplatesInstaller	>	Install
+5/31/2018 5:52:53 PM ::: 2018.05.31 17.52.53	ExcludeTemplatesInstaller	>	InternalInstall
+5/31/2018 5:52:53 PM ::: 2018.05.31 17.52.53	ExcludeTemplatesInstaller	<	InternalInstall
+5/31/2018 5:52:53 PM ::: 2018.05.31 17.52.53	ExcludeTemplatesInstaller	<	Install
+5/31/2018 5:52:53 PM ::: 2018.05.31 17.52.53	OpenSourceEulaInstaller	>	Install
+5/31/2018 5:52:53 PM ::: 2018.05.31 17.52.53	OpenSourceEulaInstaller	>	InternalInstall
+5/31/2018 5:52:53 PM ::: 2018.05.31 17.52.53	OpenSourceEulaInstaller	<	InternalInstall
+5/31/2018 5:52:53 PM ::: 2018.05.31 17.52.53	OpenSourceEulaInstaller	RootFolder: C:\Program Files (x86)\DevExpress 15.2\Components\System
+5/31/2018 5:52:53 PM ::: 2018.05.31 17.52.53	OpenSourceEulaInstaller	File: C:\Program Files (x86)\DevExpress 15.2\Components\System\..\Support\ace.LICENSE
+5/31/2018 5:52:53 PM ::: 2018.05.31 17.52.53	OpenSourceEulaInstaller	<	Install
+5/31/2018 5:52:53 PM ::: 2018.05.31 17.52.53	XtraReportsInstallerWhidbey	>	InternalInstall
+5/31/2018 5:52:53 PM ::: 2018.05.31 17.52.53	XtraReportsInstallerWhidbey	<	InternalInstall
+5/31/2018 5:52:53 PM ::: 2018.05.31 17.52.53	XtraReportsInstallerWhidbey	<	Install
+5/31/2018 5:52:53 PM ::: 2018.05.31 17.52.53	XtraReportsInstallerWhidbey	<	Install
+5/31/2018 5:52:53 PM ::: 
+5/31/2018 5:52:53 PM ::: The Install phase completed successfully, and the Commit phase is beginning.
+5/31/2018 5:52:53 PM ::: See the contents of the log file for the C:\Program Files (x86)\DevExpress 15.2\Components\System\XtraReportsCommon\DevExpress.XtraReports.v15.2.Installer.dll assembly's progress.
+5/31/2018 5:52:53 PM ::: The file is located at .
+5/31/2018 5:52:53 PM ::: Committing assembly 'C:\Program Files (x86)\DevExpress 15.2\Components\System\XtraReportsCommon\DevExpress.XtraReports.v15.2.Installer.dll'.
+5/31/2018 5:52:53 PM ::: Affected parameters are:
+5/31/2018 5:52:53 PM :::    showcallstack = 
+5/31/2018 5:52:53 PM :::    logfile = 
+5/31/2018 5:52:53 PM :::    version = 15.2.9
+5/31/2018 5:52:53 PM :::    component = XtraReportsCommon
+5/31/2018 5:52:53 PM :::    assemblypath = C:\Program Files (x86)\DevExpress 15.2\Components\System\XtraReportsCommon\DevExpress.XtraReports.v15.2.Installer.dll
+5/31/2018 5:52:53 PM :::    logtoconsole = true
+5/31/2018 5:52:53 PM :::    demosdir = C:\Users\Public\Documents\DevExpress Demos 15.2\Components
+5/31/2018 5:52:53 PM :::    installdir = C:\Program Files (x86)\DevExpress 15.2\Components
+5/31/2018 5:52:53 PM :::    demosname = 
+5/31/2018 5:52:53 PM ::: 
+5/31/2018 5:52:53 PM ::: The Commit phase completed successfully.
+5/31/2018 5:52:53 PM ::: 
+5/31/2018 5:52:53 PM ::: The transacted install has completed.
+5/31/2018 5:52:53 PM ::: 
+5/31/2018 5:52:53 PM ... waiting termination
+5/31/2018 5:52:53 PM ... process terminated
+5/31/2018 5:52:53 PM <<<<<<<<<<<<< UpdateInstallers
+5/31/2018 5:52:53 PM >>>>>>>>>>>>> UpdateMenu
+5/31/2018 5:52:53 PM ... create link: Project Converter 15.2.lnk
+5/31/2018 5:52:53 PM <<<<<<<<<<<<< UpdateMenu
+5/31/2018 5:52:53 PM ---[>>SaveToRegistry]---
+5/31/2018 5:52:53 PM ---[<<SaveToRegistry]---
+5/31/2018 5:52:53 PM ==[Install complete]===============================================
