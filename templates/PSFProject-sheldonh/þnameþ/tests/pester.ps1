@@ -19,7 +19,6 @@ Import-Module "$PSScriptRoot\..\þnameþ.psm1" -Force
 
 $totalFailed = 0
 $totalRun = 0
-
 $testresults = @()
 
 Write-PSFMessage -Level Important -Message "Modules imported, proceeding with general tests"

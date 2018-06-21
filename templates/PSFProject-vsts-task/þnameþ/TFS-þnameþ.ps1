@@ -23,8 +23,8 @@ Write-PSFMessage -Level Output -Message ( "{0:hh\:mm\:ss\.fff} {1}: starting" -f
 
 Import-Module -Name "$PSScriptRoot\þnameþ.psd1" -force
 
-[string]$ServerName    = Get-VstsInput -Name SqlInstance   -verbose -Require
-[string]$DatabaseNames = Get-VstsInput -Name DatabaseName  -verbose -Require
+[string]$SqlInstance   = Get-VstsInput -Name SqlInstance   -verbose -Require
+[string]$Database      = Get-VstsInput -Name Database  -verbose -Require
 
 
 try

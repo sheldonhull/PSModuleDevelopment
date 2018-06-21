@@ -1,6 +1,9 @@
 ﻿$script:ModuleRoot = $PSScriptRoot
-$script:ModuleVersion = "1.0.1"
+$script:PSModuleVersion = "1.0.1"
 
+# Ensure all contents are unblocked in case policy sets as blocked if downloaded.
+Write-PSFMessage -Level VeryVerbose -Message "Unblocking files recursively from `$ModuleFolder $script:ModuleRoot "
+Get-ChildItem $script:ModuleRoot  -Recurse | Unblock-File
 
 function Import-ModuleFile
 {
