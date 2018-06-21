@@ -1,6 +1,6 @@
 $CommandName = $MyInvocation.MyCommand.Name.Replace(".Tests.ps1", "")
 Write-Host -Object "Running $PSCommandpath" -ForegroundColor Cyan
-. '..\constants.ps1'
+. (resolve-path "$PSScriptRoot\..\constants.ps1")
 Import-Module (resolve-path "$PSScriptRoot\..\..\ps_modules\vststasksdk")  -Force -ArgumentList @{ NonInteractive = $true }
 
 $script:TFSScriptPath = Resolve-Path "..\..\TFS-þnameþ.ps1"
