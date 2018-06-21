@@ -79,7 +79,7 @@ function Update-Version
                 {
                     #[version]$ModuleCurrentVersion = '1.0.0.1'
                     $moduleInformation = Import-PowershellDataFile $PSD1FullName -Verbose:$false | ConvertHashtableTo-Object
-                    [Version]$ModuleOriginalVersion = [version]::parse($Moduleinformation.ModuleVersion)
+                    #[Version]$ModuleOriginalVersion = [version]::parse($Moduleinformation.ModuleVersion)
                     #[version]::TryParse(('{0}.{1}.{2}.0' -f $moduleInformation.Version.Major, $moduleInformation.Version.Minor, $moduleInformation.Version.Patch), [ref]$ModuleCurrentVersion)
                     try
                     {
@@ -90,11 +90,11 @@ function Update-Version
                             ErrorAction   = 'continue'
                         }
                         Update-ModuleManifest @SplatMe
-                        Write-PSFMessage -Level Verbose -Message  "$ModuleName -- psd1 --$($ModuleOriginalVersion) vs $NewVersion"
+                        Write-PSFMessage -Level Verbose -Message  "$ModuleName -- psd1 --$($Moduleinformation.ModuleVersion) vs $NewVersion"
                     }
                     catch
                     {
-                        Write-PSFMessage -Level Warning -Message  "FAILED: $ModuleName -- psd1 --$($ModuleOriginalVersion) vs $NewVersion" -Exception $_.Exception
+                        Write-PSFMessage -Level Warning -Message  "FAILED: $ModuleName -- psd1 --$($Moduleinformation.ModuleVersion) vs $NewVersion" -Exception $_.Exception
                     }
                 }
 
