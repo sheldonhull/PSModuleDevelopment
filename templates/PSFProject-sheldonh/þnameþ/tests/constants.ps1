@@ -8,5 +8,5 @@ if (Test-Path $LocalOverrideFile -PathType Leaf)
 else
 {
     $script:SqlInstance = (Set-PSFConfig -Fullname 'þnameþ.SqlInstance'  -value 'localhost'  -PassThru).value
-    $script:Database    = (Set-PSFConfig -Fullname 'þnameþ.Database' -value ''               -PassThru).value
+    $script:Database = (Set-PSFConfig -Fullname 'þnameþ.Database' -value ''               -PassThru).value
 }

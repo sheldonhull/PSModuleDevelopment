@@ -1,5 +1,14 @@
-﻿param (
+﻿[cmdletbinding()]
+param (
+    #Overall output level
     $Show = "None"
+
+    #Can override the overall output to show full detail on the functions Pester is running
+    , $ShowFileDetail = 'None'
+
+    # if you want to generate a test results file for consumption by a build or other report tool, choose the details here
+    , $OutputFile = $null
+    , $OutputFormat = 'NUnitXml'
 )
 
 Write-Host "Starting Tests" -ForegroundColor Green
@@ -47,7 +56,14 @@ Write-PSFMessage -Level Important -Message "Proceeding with individual tests"
 foreach ($file in (Get-ChildItem "$PSScriptRoot\functions" -Recurse -File -Filter "*Tests.ps1"))
 {
     Write-PSFMessage -Level Significant -Message "  Executing $($file.Name)"
-    $results = Invoke-Pester -Script $file.FullName -Show None -PassThru
+    $SplatPester = @{}
+
+    if ($OutputFile)
+    {
+        [Hashtable]$SplatPester.Add('OutFile', $OutFile)
+        [Hashtable]$SplatPester.Add('OutputFormat', $OutputFormat)
+    }
+    $results = Invoke-Pester -Script $file.FullName -Show $ShowFileDetail -PassThru @SplatPester
     foreach ($result in $results)
     {
         $totalRun += $result.TotalCount
@@ -67,8 +83,30 @@ foreach ($file in (Get-ChildItem "$PSScriptRoot\functions" -Recurse -File -Filte
 
 $testresults | Sort-Object Describe, Context, Name, Result, Message | Format-List
 
-if ($totalFailed -eq 0) { Write-PSFMessage -Level Critical -Message "All <c='em'>$totalRun</c> tests executed without a single failure!" }
-else { Write-PSFMessage -Level Critical -Message "<c='em'>$totalFailed tests</c> out of <c='sub'>$totalRun</c> tests failed!" }
+
+if ($totalFailed -eq 0)
+{
+    Write-PSFMessage -Level Critical -Message "All <c='em'>$totalRun</c> tests executed without a single failure!"
+    write-Host (
+@'
+you are...
+
+███████╗██████╗ ██╗ ██████╗
+██╔════╝██╔══██╗██║██╔════╝
+█████╗  ██████╔╝██║██║
+██╔══╝  ██╔═══╝ ██║██║
+███████╗██║     ██║╚██████╗
+╚══════╝╚═╝     ╚═╝ ╚═════╝
+
+'@
+    ) -foregroundcolor Green
+}
+else
+{
+    Write-PSFMessage -Level Critical -Message "<c='em'>$totalFailed tests</c> out of <c='sub'>$totalRun</c> tests failed!"
+    write-host "﴾͡๏̯͡๏﴿ O'RLY?" -ForegroundColor Red
+}
+
 
 if ($totalFailed -gt 0)
 {

@@ -57,7 +57,7 @@
 	FormatsToProcess = @('xml\PSModuleDevelopment.Format.ps1xml')
 	
 	# Modules to import as nested modules of the module specified in
-	# ModuleToProcess
+	# RootModule
 	NestedModules = @()
 	
 	# Functions to export from this module

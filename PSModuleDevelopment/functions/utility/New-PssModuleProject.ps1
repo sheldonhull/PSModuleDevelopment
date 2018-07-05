@@ -103,7 +103,7 @@
 @{
 	
 	# Script module or binary module file associated with this manifest
-	ModuleToProcess = '$Name.psm1'
+	RootModule = '$Name.psm1'
 	
 	# Version number of this module.
 	ModuleVersion = '1.0.0.0'
@@ -159,7 +159,7 @@
 	FormatsToProcess = @()
 	
 	# Modules to import as nested modules of the module specified in
-	# ModuleToProcess
+	# RootModule
 	NestedModules = @()
 	
 	# Functions to export from this module

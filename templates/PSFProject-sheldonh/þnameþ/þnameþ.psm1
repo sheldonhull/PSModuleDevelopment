@@ -1,5 +1,5 @@
 ﻿$script:ModuleRoot = $PSScriptRoot
-$script:PSModuleVersion = "1.0.1"
+$script:PSModuleVersion = Import-Clixml (Join-Path $script:ModuleRoot 'version.xml')
 
 
 # Ensure all contents are unblocked in case policy sets as blocked if downloaded.

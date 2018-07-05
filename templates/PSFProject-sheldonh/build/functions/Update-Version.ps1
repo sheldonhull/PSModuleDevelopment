@@ -2,7 +2,7 @@
 .description
     updates the psd1 version number and the task.json version number if exists based on version.txt to simplify version updating.
 .Parameter ModuleDirectory
-    Directory of the module
+    Directory of the module. Accepts fileinfo object(s), array of string[], string
 .Parameter ModuleName
     Default: Leaf Name from the Module Directory passed in
     Name of the module. Optional
@@ -19,7 +19,7 @@ function Update-Version
     Param (
         [Parameter(mandatory, ValueFromPipeline)][PsObject[]]$ModuleDirectory
         , [Parameter()]$ModuleName #don't cast as string to avoid issues with isnull
-        , [Parameter()]$ReleaseNotes
+        , [Parameter()][AllowNull()][string]$ReleaseNotes
     )
     begin
     {
@@ -53,7 +53,7 @@ function Update-Version
                 else
                 {
                     [version]$CurrentVersion = Import-CliXml $VersionXmlFullName
-                    Write-PSFMessage -Level Verbose -Message  "$ModuleName  - $CurrentVersion"
+                    Write-PSFMessage -Level Verbose -Message  "$ModuleName  - Current Version (xml) $CurrentVersion"
                     [version]$NewVersion = ( [version]::new(
                             $CurrentVersion.Major
                             , $CurrentVersion.Minor
@@ -78,7 +78,7 @@ function Update-Version
                 if ($PSD1FullName)
                 {
                     #[version]$ModuleCurrentVersion = '1.0.0.1'
-                    $moduleInformation = Import-PowershellDataFile $PSD1FullName -Verbose:$false | ConvertHashtableTo-Object
+                    $moduleInformation = Import-PowershellDataFile $PSD1FullName | ConvertHashtableTo-Object
                     #[Version]$ModuleOriginalVersion = [version]::parse($Moduleinformation.ModuleVersion)
                     #[version]::TryParse(('{0}.{1}.{2}.0' -f $moduleInformation.Version.Major, $moduleInformation.Version.Minor, $moduleInformation.Version.Patch), [ref]$ModuleCurrentVersion)
                     try
@@ -90,11 +90,11 @@ function Update-Version
                             ErrorAction   = 'continue'
                         }
                         Update-ModuleManifest @SplatMe
-                        Write-PSFMessage -Level Verbose -Message  "$ModuleName -- psd1 --$($Moduleinformation.ModuleVersion) vs $NewVersion"
+                        Write-PSFMessage -Level Verbose -Message  "$ModuleName -- psd1 --$($ModuleOriginalVersion) vs $NewVersion"
                     }
                     catch
                     {
-                        Write-PSFMessage -Level Warning -Message  "FAILED: $ModuleName -- psd1 --$($Moduleinformation.ModuleVersion) vs $NewVersion" -Exception $_.Exception
+                        Write-PSFMessage -Level Warning -Message  "FAILED: $ModuleName -- psd1 --$($ModuleOriginalVersion) vs $NewVersion" -Exception $_.Exception
                     }
                 }
 

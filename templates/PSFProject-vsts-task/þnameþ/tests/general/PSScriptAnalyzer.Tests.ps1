@@ -14,7 +14,7 @@ if ($env:BUILD_BUILDURI -like "vstfs*") { Install-Module PSScriptAnalyzer -Force
 $list = New-Object System.Collections.ArrayList
 
 Describe 'Invoking PSScriptAnalyzer against commandbase' {
-	$commandFiles = Get-ChildItem -Path $CommandPath -Recurse -Filter "*.ps1"
+	$commandFiles = Get-ChildItem -Path $CommandPath -Recurse -Filter "*.ps1" | Where-Object {$_.FullName -notmatch 'ps_modules'}
 	$scriptAnalyzerRules = Get-ScriptAnalyzerRule
 	
 	foreach ($file in $commandFiles)
