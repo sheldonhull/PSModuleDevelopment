@@ -17,7 +17,7 @@ else
 {
     Write-Host "þnameþ - Executing preimport.ps1 and setting up dependencies. Please wait..." -ForegroundColor Green
     [Version[]]$versions = @(Get-module PowershellGet -ListAvailable).Version
-    [Version]$HighestVersion = $Versions | Sort-Object -Descending | Select -First 1
+    [Version]$HighestVersion = $Versions | Sort-Object -Descending | Select-Object -First 1
     [Bool]$NotInstalledForCurrentUser = @(Get-module PowershellGet -ListAvailable | Where-Object {$_.Path -Match [regex]::Escape($ENV:UserProfile)}).count -eq 0
     [Bool]$OutOfDatePowershellGet = $HighestVersion -le [Version]::New(1, 6, 5) # ensure updated version, no 1.0.1 PowershellGet allowed to be the default
 

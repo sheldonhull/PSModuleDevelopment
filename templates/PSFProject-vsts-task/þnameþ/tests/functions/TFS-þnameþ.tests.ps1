@@ -3,7 +3,7 @@ Write-Host -Object "Running $PSCommandpath" -ForegroundColor Cyan
 . (resolve-path "$PSScriptRoot\..\constants.ps1")
 Import-Module (resolve-path "$PSScriptRoot\..\..\ps_modules\vststasksdk")  -Force -ArgumentList @{ NonInteractive = $true }
 
-$script:TFSScriptPath = Resolve-Path "..\..\TFS-þnameþ.ps1"
+$script:TFSScriptPath = Resolve-Path "$PSScriptRoot\..\..\TFS-þnameþ.ps1"
 if (!(Test-Path $script:TFSScriptPath -PathType Leaf ))
 {
     throw "Cannot identify `$script:TFSScriptPath = $script:TFSScriptPath for testing."

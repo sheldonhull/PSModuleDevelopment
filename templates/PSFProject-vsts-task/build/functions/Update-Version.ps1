@@ -33,7 +33,7 @@ function Update-Version
     process
     {
         $ModuleDirectory | ForEach-Object {
-            $m = get-item($_).FullName
+            $m = (get-item $_).FullName
             try
             {
                 $ModuleName = ($ModuleName, ($m | Split-Path -Leaf) -ne $null )[0]

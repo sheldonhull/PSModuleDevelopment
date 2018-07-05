@@ -58,7 +58,7 @@ function þFunctionNameþ
     }
     end
     {
-        Write-PSFMessage -Level Verbose -Message ( "{0:hh\:mm\:ss\.fff} {1}: finished" -f $StopWatch.Elapsed, 'þFunctionNameþ')
+        Write-PSFMessage -Level Important -Message ( "{0:hh\:mm\:ss\.fff} {1}: finished" -f $StopWatch.Elapsed, 'þFunctionNameþ')
         $StopWatch.Stop()
     }
 }
