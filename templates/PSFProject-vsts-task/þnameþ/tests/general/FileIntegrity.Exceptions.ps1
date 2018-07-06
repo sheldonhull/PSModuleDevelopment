@@ -18,9 +18,9 @@ $global:BannedCommands = @(
 #>
 $global:MayContainCommand = @{
     "Write-Host"        = @('preimport.ps1')
-    "Write-Verbose"     = @()
-    "Write-Warning"     = @()
-    "Write-Error"       = @()
+    "Write-Verbose"     = @('preimport.ps1')
+    "Write-Warning"     = @('preimport.ps1')
+    "Write-Error"       = @('preimport.ps1')
     "Write-Output"      = @()
     "Write-Information" = @()
     "Write-Debug"       = @('preimport.ps1')
