@@ -33,15 +33,17 @@ function Get-FileEncoding
 
 Describe "Verifying integrity of module files" {
 	Context "Validating PS1 Script files" {
-		$allFiles = Get-ChildItem -Path $moduleRoot -Recurse -Filter "*.ps1" | Where-Object FullName -NotLike "$moduleRoot\tests\*" | Where-Object {$_.FullName -notmatch 'ps_modules'}
+        $allFiles = Get-ChildItem -Path $moduleRoot -Recurse -Filter "*.ps1" | Where-Object {$_.FullName -NotLike "$moduleRoot\tests\*" -and $_.FullName -notmatch '(VstsTaskSdk)|(xml)|(tepp)'}
 		
 		foreach ($file in $allFiles)
 		{
 			$name = $file.FullName.Replace("$moduleRoot\", '')
+            <# - Issues with BOM, removing from standard tests
+            It "[$name] Should have UTF8 encoding" {
+            Get-FileEncoding -Path $file.FullName | Should Be 'UTF8'
+            }
+        #>
 			
-	<# 		It "[$name] Should have UTF8 encoding" {
-				Get-FileEncoding -Path $file.FullName | Should Be 'UTF8'
-			} #>
 			
 			It "[$name] Should have no trailing space" {
 				($file | Select-String "\s$" | Where-Object { $_.Line.Trim().Length -gt 0} | Measure-Object).Count | Should Be 0
@@ -72,15 +74,17 @@ Describe "Verifying integrity of module files" {
 	}
 	
 	Context "Validating help.txt help files" {
-		$allFiles = Get-ChildItem -Path $moduleRoot -Recurse -Filter "*.help.txt" | Where-Object FullName -NotLike "$moduleRoot\tests\*"
+        $allFiles = Get-ChildItem -Path $moduleRoot -Recurse -Filter "*.help.txt" | Where-Object {$_.FullName -NotLike "$moduleRoot\tests\*" -and $_.FullName -notmatch '(VstsTaskSdk)|(xml)|(tepp)'}
 		
 		foreach ($file in $allFiles)
 		{
 			$name = $file.FullName.Replace("$moduleRoot\", '')
 			
-			# It "[$name] Should have UTF8 encoding" {
-			# 	Get-FileEncoding -Path $file.FullName | Should Be 'UTF8'
-			# }
+            <#
+            It "[$name] Should have UTF8 encoding" {
+                Get-FileEncoding -Path $file.FullName | Should Be 'UTF8'
+            }
+            #>
 			
 			It "[$name] Should have no trailing space" {
 				($file | Select-String "\s$" | Where-Object { $_.Line.Trim().Length -gt 0 } | Measure-Object).Count | Should Be 0

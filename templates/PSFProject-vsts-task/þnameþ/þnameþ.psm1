@@ -1,10 +1,10 @@
 ﻿$script:ModuleRoot = $PSScriptRoot
 $script:PSModuleVersion = Import-Clixml (Join-Path $script:ModuleRoot 'version.xml')
 
+
 # Ensure all contents are unblocked in case policy sets as blocked if downloaded.
 Write-PSFMessage -Level VeryVerbose -Message "Unblocking files recursively from `$ModuleFolder $script:ModuleRoot "
 Get-ChildItem $script:ModuleRoot  -Recurse | Unblock-File
-
 function Import-ModuleFile
 {
 	<#

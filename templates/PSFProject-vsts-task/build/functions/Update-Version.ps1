@@ -77,10 +77,8 @@ function Update-Version
                 }
                 if ($PSD1FullName)
                 {
-                    #[version]$ModuleCurrentVersion = '1.0.0.1'
-                    $moduleInformation = Import-PowershellDataFile $PSD1FullName | ConvertHashtableTo-Object
-                    #[Version]$ModuleOriginalVersion = [version]::parse($Moduleinformation.ModuleVersion)
-                    #[version]::TryParse(('{0}.{1}.{2}.0' -f $moduleInformation.Version.Major, $moduleInformation.Version.Minor, $moduleInformation.Version.Patch), [ref]$ModuleCurrentVersion)
+
+                    $ModInfo = (Get-Content $PSD1FullName -Raw) | Invoke-Expression  #Take content of psd1/aka hashtable, and just create object from it. Easy!
                     try
                     {
                         $SplatMe = @{
@@ -90,11 +88,11 @@ function Update-Version
                             ErrorAction   = 'continue'
                         }
                         Update-ModuleManifest @SplatMe
-                        Write-PSFMessage -Level Verbose -Message  "$ModuleName -- psd1 --$($Moduleinformation.ModuleVersion) vs $NewVersion"
+                        Write-PSFMessage -Level Verbose -Message  "$ModuleName -- psd1 --$($ModInfo.ModuleVersion) vs $NewVersion"
                     }
                     catch
                     {
-                        Write-PSFMessage -Level Warning -Message  "FAILED: $ModuleName -- psd1 --$($Moduleinformation.ModuleVersion) vs $NewVersion" -Exception $_.Exception
+                        Write-PSFMessage -Level Warning -Message  "FAILED: $ModuleName -- psd1 --$($ModInfo.ModuleVersion) vs $NewVersion" -Exception $_.Exception
                     }
                 }
 

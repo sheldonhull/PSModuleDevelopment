@@ -23,16 +23,17 @@ Write-PSFMessage -Level Output -Message ( "{0:hh\:mm\:ss\.fff} {1}: starting" -f
 
 Import-Module -Name "$PSScriptRoot\þnameþ.psd1" -force
 
-[string]$SqlInstance   = Get-VstsInput -Name SqlInstance   -verbose -Require
-[string]$Database      = Get-VstsInput -Name Database  -verbose -Require
+[string]$SqlInstance   = Get-PSFConfigValue -FullName 'þnameþ.SqlInstance' -FallBack (Get-VstsInput -Name SqlInstance   -verbose)
+[string]$Database      = Get-PSFConfigValue -FullName 'þnameþ.Database' -FallBack (Get-VstsInput -Name Database -verbose)
 
-
+Write-PSFMessage -Level Debug -Message "---þnameþ current variables---`n$(Get-PSFConfig -Fullname 'þnameþ.*' | Format-Table -AutoSize -Wrap | Out-String)"
 try
 {
     $TFSStopwatchProcess = [diagnostics.stopwatch]::StartNew()
     Write-PSFMessage -Level Output -Message ( "{0:hh\:mm\:ss\.fff} {1}: task start" -f $TFSStopwatchProcess.Elapsed, 'TFS-þnameþ')
 
     #TASKS HERE
+    Set-PSFConfig -FullName 'þnameþ.Output.' -Value '' -Initialize -Validation 'string' -Handler { } -Description "Output results" -PassThru -Verbose | Register-PSFConfig -Scope FileSystem -Verbose
 
 
     Write-PSFMessage -Level Output -Message ( "{0:hh\:mm\:ss\.fff} {1}: task end" -f $TFSStopwatchProcess.Elapsed, 'TFS-þnameþ')

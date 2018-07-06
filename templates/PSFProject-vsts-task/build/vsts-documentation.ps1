@@ -15,12 +15,13 @@ Write-Host "  Importing platyPS"
 Import-Module -Name platyPS -Force
 Write-Host "###############################################################"
 
+#SYSTEM_DEFAULTWORKINGDIRECTORY is supposed to be the root folder that contains both the build folder, C# project if included, and the Module folder(same name as project)
+#Documentation will be generated at the root directory
 
 $env:SYSTEM_DEFAULTWORKINGDIRECTORY = (($env:SYSTEM_DEFAULTWORKINGDIRECTORY|Resolve-Path -ea 0|Split-Path -Parent|Split-Path -Parent).Path, ($PSScriptRoot|Split-path -parent|Split-Path -Parent) -ne $null)[0]
 $commandReferenceBasePath = "$($env:SYSTEM_DEFAULTWORKINGDIRECTORY)\documentation\commands"
-#get-command -module platyps | out-gridview -PassThru -Title 'Select Command to View Help' | get-help -showWindow
 
-#region þnameþ
+#region module
 Write-Host "  Importing þnameþ" -ForegroundColor Green
 $moduleName = "þnameþ"
 Import-Module "$($env:SYSTEM_DEFAULTWORKINGDIRECTORY)\$ModuleName\$ModuleName\$ModuleName.psd1" -force
@@ -53,7 +54,7 @@ foreach ($command in $commands) {
     Add-Content -Path "$($commandReferenceBasePath)\$($moduleName).md" -Value " - [$command]($($moduleName)/$command.md)"
 }
 Write-PSFMessage -Level Host -Message "Finished processing $moduleName"
-#endregion þnameþ
+#endregion module
 
 Write-Host " - "
 Write-Host "###############################################################"
@@ -62,6 +63,9 @@ Write-Host " - "
 $branch = $env:BUILD_SOURCEBRANCHNAME
 Write-PSFMessage -Level Host -Message "Applying documentation to repository"
 set-location $env:SYSTEM_DEFAULTWORKINGDIRECTORY -Verbose
+
+git config credential.interactive never
+git config credential.authority NTLM
 git config user.name ""
 git config user.email ""
 git add documentation

@@ -13,7 +13,6 @@ Insert any build steps you may need to take before publishing it here.
 
     PS> tfx login --service-url {TFSURL}/DefaultCollection -token MyTokenFromTFS
     The first time you do this on a system, you need to cache your credential for the tfx cli
-
 #>
 param (
     [string]$ApiKey = (Get-PSFConfigValue 'API.ProgetApiKey' -Fallback $ENV:INPUT_APIKEY)
@@ -58,6 +57,7 @@ else
         Force       = $force #needs to be true for noninteractive mode
     }
     Publish-Module @SplatArgs
+
 
     set-location $env:SYSTEM_DEFAULTWORKINGDIRECTORY -Verbose
     git config credential.interactive never

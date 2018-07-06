@@ -1,11 +1,23 @@
-﻿TOPIC
-	about_þnameþ
-	
-SHORT DESCRIPTION
-	Explains how to use the þnameþ powershell module
-	
-LONG DESCRIPTION
-	<Insert Content here>
+﻿# þnameþ
+## about_þnameþ
 
-KEYWORDS
-	þnameþ
+## SHORT DESCRIPTION
+What þnameþ powershell module does
+
+## LONG DESCRIPTION
+More detail if required here
+
+## EXAMPLES
+
+`PS> Import-Module þnameþ`
+Import the module.
+
+`PS>  þFunctionNameþ`
+þdescription of functionþ
+
+# TROUBLESHOOTING NOTE
+
+# SEE ALSO
+
+# KEYWORDS
+- þnameþ
