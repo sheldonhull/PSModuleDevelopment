@@ -36,7 +36,10 @@ namespace PSModuleDevelopment.Format
         /// </summary>
         /// <returns>The format string to produce for the format file.</returns>
         public abstract override string ToString();
-
+        /// <summary>
+        /// CompareTo
+        /// </summary>
+        /// <returns>Comparison result</returns>
         public int CompareTo(object Item)
         {
             ViewDefinitionBase tempItem = Item as ViewDefinitionBase;
